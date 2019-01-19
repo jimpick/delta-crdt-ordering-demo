@@ -1,0 +1,1892 @@
+Test Node.js
+rendezvous: Listening on: http://0.0.0.0:9090
+
+[0m[0m
+[0m  collaboration with random changes[0m
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcnJwXLUE27YpyPR7GwRF8h6o1ouR6iBkcTUk9sShXS8c
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmZrpe3pyKyNmjucMGgEsBAjRcGkcdgb3avsqYHTFndTK1
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/Qmc5WHmQzyBn9pi6qrMg9XHcU7m51Myo5CchEjMb3qmFo9
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmV8Cu1WNqBw6jHkBun8SHyuv8gHhpiHvtHww6EBkBWMBt
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmaLb1HuEbkW9hv1F2ZCnLwS7exk1rPK5KFKpT5WYfzbJa
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmYhezh22kguEdAHB6uqQKLFmT13K46oonvn3jFwCiyumQ
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmVPQLtqBwFga3HPRCVZT6ygk9qtXi8aRqTp72i6UTXPGt
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmdXPocZdyJyzXTCc5Z8Mfw35KV1ezC1St8es8UDYKMums
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmdxxnZWVqh7MdpTM1EYTpbLjoT1zshDKFz8JjvnBcmUED
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/Qme7CEg2BoAXsbWgzEDefH3MFmPfqTAASuwE1ETz59sVdK
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmWxQttBj8b2S2vwDyxwxh3uWcbzs5Gxc1digTNx8BE92B
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmSfrysaxzMQ6dzRFqtRB1Ao5Kp7Hher9zpRav4tEhsUik
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:706) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmSewTcDD4hgGM1Xp6hCzGZtRuxhS3M6zEBmTPkMtnkrjU
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmNdsLQKHfvnvC8hwky8jtaFr5ZZ9dvCjJPcQ1BY4fcCNo
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmYsYqqh2N2p7janRewDbu6S7eSekjTXEZymyvRUHpuaKg
+  [32m  ✓[0m[90m can be created[0m[31m (4444ms)[0m
+
+>> push 5 PGt f
+
+PGt
+Before: 
+After:  f
+
+>> push 14 rjU o
+
+rjU
+Before: 
+After:  o
+
+>> push 7 MBt h
+
+MBt
+Before: 
+After:  h
+
+>> push 7 MBt i
+
+MBt
+Before: h
+After:  hi
+
+MBt
+Before: hi
+After:  hio
+
+>> push 13 Uik n
+
+Uik
+Before: 
+After:  n
+
+>> push 9 bJa j
+
+bJa
+Before: 
+After:  j
+
+S8c
+Before: 
+After:  o
+
+TK1
+Before: 
+After:  o
+
+VdK
+Before: 
+After:  o
+
+>> push 0 S8c a
+
+S8c
+Before: o
+After:  oa
+
+PGt
+Before: f
+After:  of
+
+umQ
+Before: 
+After:  o
+
+>> push 7 MBt j
+
+MBt
+Before: hio
+After:  hioj
+
+>> push 8 92B i
+
+92B
+Before: 
+After:  i
+
+>> push 12 aKg m
+
+aKg
+Before: 
+After:  m
+
+>> push 5 PGt g
+
+PGt
+Before: of
+After:  ofg
+
+>> push 11 CNo l
+
+CNo
+Before: 
+After:  l
+
+>> push 14 rjU p
+
+rjU
+Before: o
+After:  op
+
+>> push 9 bJa k
+
+bJa
+Before: j
+After:  jk
+
+MBt
+Before: hioj
+After:  hiojm
+
+MBt
+Before: hiojm
+After:  hilojm
+
+VdK
+Before: o
+After:  lo
+
+>> push 10 UED k
+
+UED
+Before: 
+After:  k
+
+VdK
+Before: lo
+After:  lom
+
+rjU
+Before: op
+After:  opm
+
+rjU
+Before: opm
+After:  lopm
+
+S8c
+Before: oa
+After:  oam
+
+TK1
+Before: o
+After:  lo
+
+TK1
+Before: lo
+After:  lom
+
+>> push 2 ums c
+
+ums
+Before: 
+After:  c
+
+PGt
+Before: ofg
+After:  ofgm
+
+>> push 0 S8c b
+
+S8c
+Before: oam
+After:  oamb
+
+umQ
+Before: o
+After:  lo
+
+PGt
+Before: ofgm
+After:  lofgm
+
+MBt
+Before: hilojm
+After:  hilojpm
+
+S8c
+Before: oamb
+After:  oapmb
+
+TK1
+Before: lom
+After:  lopm
+
+umQ
+Before: lo
+After:  lop
+
+VdK
+Before: lom
+After:  lopm
+
+PGt
+Before: lofgm
+After:  lopfgm
+
+>> push 6 TK1 g
+
+TK1
+Before: lopm
+After:  lopmg
+
+>> push 1 umQ b
+
+umQ
+Before: lop
+After:  lopb
+
+>> push 4 VdK e
+
+VdK
+Before: lopm
+After:  lopme
+
+bJa
+Before: jk
+After:  jkm
+
+umQ
+Before: lopb
+After:  lopbm
+
+>> push 3 Fo9 d
+
+Fo9
+Before: 
+After:  d
+
+S8c
+Before: oapmb
+After:  loapmb
+
+Fo9
+Before: d
+After:  lopbdm
+
+Fo9
+Before: lopbdm
+After:  lopbdjkm
+
+VdK
+Before: lopme
+After:  lopjkme
+
+bJa
+Before: jkm
+After:  lopjkfgm
+
+bJa
+Before: lopjkfgm
+After:  lopjkfgmg
+
+umQ
+Before: lopbm
+After:  lopbfgm
+
+PGt
+Before: lopfgm
+After:  lopjkfgme
+
+Fo9
+Before: lopbdjkm
+After:  lopbdjkmg
+
+TK1
+Before: lopmg
+After:  lopbmg
+
+TK1
+Before: lopbmg
+After:  lopbfgmg
+
+>> push 2 ums d
+
+ums
+Before: c
+After:  cd
+
+VdK
+Before: lopjkme
+After:  lopjkfgme
+
+VdK
+Before: lopjkfgme
+After:  lopbjkfgme
+
+VdK
+Before: lopbjkfgme
+After:  lopbdjkfgme
+
+VdK
+Before: lopbdjkfgme
+After:  lopbdjkfgmge
+
+PGt
+Before: lopjkfgme
+After:  lopjkkfgme
+
+VdK
+Before: lopbdjkfgmge
+After:  lopbdjkkfgmge
+
+bJa
+Before: lopjkfgmg
+After:  lopjkkfgmge
+
+umQ
+Before: lopbfgm
+After:  lopbjkkfgme
+
+Fo9
+Before: lopbdjkmg
+After:  lopbdjkfgmg
+
+TK1
+Before: lopbfgmg
+After:  lopbjkfgmge
+
+TK1
+Before: lopbjkfgmge
+After:  lopbjkkfgmge
+
+VdK
+Before: lopbdjkkfgmge
+After:  lopbdjkkfgcdmge
+
+PGt
+Before: lopjkkfgme
+After:  lopbdjkkfgmge
+
+Fo9
+Before: lopbdjkfgmg
+After:  lopbdjkkfgmge
+
+ums
+Before: cd
+After:  lopjkkfgcdmge
+
+ums
+Before: lopjkkfgcdmge
+After:  lopbdjkkfgcdmge
+
+PGt
+Before: lopbdjkkfgmge
+After:  lopbdjkkfgcdmge
+
+UED
+Before: k
+After:  kcd
+
+UED
+Before: kcd
+After:  lopbdjkkfgcdmge
+
+>> push 2 ums e
+
+ums
+Before: lopbdjkkfgcdmge
+After:  lopbdjkkfgcdmgee
+
+bJa
+Before: lopjkkfgmge
+After:  hilopjkkfgmge
+
+bJa
+Before: hilopjkkfgmge
+After:  hilojpjkkfgmge
+
+PGt
+Before: lopbdjkkfgcdmge
+After:  hilopbdjkkfgcdmge
+
+PGt
+Before: hilopbdjkkfgcdmge
+After:  hilojpbdjkkfgcdmge
+
+>> push 1 umQ c
+
+umQ
+Before: lopbjkkfgme
+After:  lopbjkkfgmec
+
+>> push 10 UED l
+
+UED
+Before: lopbdjkkfgcdmge
+After:  lopbdjkkfgcdmgel
+
+UED
+Before: lopbdjkkfgcdmgel
+After:  lopbdjkkfgcdmgele
+
+VdK
+Before: lopbdjkkfgcdmge
+After:  lopbdjkkfgcdmgee
+
+bJa
+Before: hilojpjkkfgmge
+After:  hiilojpjkkfgmge
+
+bJa
+Before: hiilojpjkkfgmge
+After:  hiilojpbdjkkfgcdmge
+
+umQ
+Before: lopbjkkfgmec
+After:  ilopbjkkfgmec
+
+PGt
+Before: hilojpbdjkkfgcdmge
+After:  hilojpbdjkkfgcdmgel
+
+Fo9
+Before: lopbdjkkfgmge
+After:  ilopbdjkkfgmge
+
+Fo9
+Before: ilopbdjkkfgmge
+After:  hiilopbdjkkfgmge
+
+Fo9
+Before: hiilopbdjkkfgmge
+After:  hiilojpbdjkkfgmge
+
+ums
+Before: lopbdjkkfgcdmgee
+After:  hilopbdjkkfgcdmgee
+
+ums
+Before: hilopbdjkkfgcdmgee
+After:  hilojpbdjkkfgcdmgee
+
+>> push 5 PGt h
+
+PGt
+Before: hilojpbdjkkfgcdmgel
+After:  hilojpbdjkkfgcdmgelh
+
+MBt
+Before: hilojpm
+After:  hilojpbdjkkfgcdmge
+
+VdK
+Before: lopbdjkkfgcdmgee
+After:  lopbdjkkfgcdmgeeci
+
+PGt
+Before: hilojpbdjkkfgcdmgelh
+After:  hilojpbdjkkfgcdmgelhe
+
+VdK
+Before: lopbdjkkfgcdmgeeci
+After:  hilopbdjkkfgcdmgeeci
+
+VdK
+Before: hilopbdjkkfgcdmgeeci
+After:  hilojpbdjkkfgcdmgeeci
+
+umQ
+Before: ilopbjkkfgmec
+After:  hiilopbjkkfgmec
+
+umQ
+Before: hiilopbjkkfgmec
+After:  hiilojpbjkkfgmec
+
+Fo9
+Before: hiilojpbdjkkfgmge
+After:  hiilojpbdjkkfgcdmge
+
+UED
+Before: lopbdjkkfgcdmgele
+After:  hilopbdjkkfgcdmgele
+
+UED
+Before: hilopbdjkkfgcdmgele
+After:  hilojpbdjkkfgcdmgele
+
+ums
+Before: hilojpbdjkkfgcdmgee
+After:  hiilojpbdjkkfgcdmgee
+
+92B
+Before: i
+After:  ilopbdjkkfgcdmge
+
+92B
+Before: ilopbdjkkfgcdmge
+After:  hiilojpbdjkkfgcdmge
+
+PGt
+Before: hilojpbdjkkfgcdmgelhe
+After:  hilojpbdjkkfgcdmgelheci
+
+>> push 9 bJa l
+
+bJa
+Before: hiilojpbdjkkfgcdmge
+After:  hiilojpbdjkkfgcdmgel
+
+>> push 4 VdK f
+
+VdK
+Before: hilojpbdjkkfgcdmgeeci
+After:  hilojpbdjkkfgcdmgeecif
+
+S8c
+Before: loapmb
+After:  loapmgb
+
+S8c
+Before: loapmgb
+After:  loapjkfgmgb
+
+S8c
+Before: loapjkfgmgb
+After:  loapbjkfgmgb
+
+S8c
+Before: loapbjkfgmgb
+After:  hiloapbjkkfgmgeb
+
+MBt
+Before: hilojpbdjkkfgcdmge
+After:  hilojpbdjkkfgcdmgee
+
+MBt
+Before: hilojpbdjkkfgcdmgee
+After:  hiilojpbdjkkfgcdmgee
+
+MBt
+Before: hiilojpbdjkkfgcdmgee
+After:  hiilojpbdjkkfgcdmgele
+
+MBt
+Before: hiilojpbdjkkfgcdmgele
+After:  hiilojpbdjkkfgcdmgelec
+
+bJa
+Before: hiilojpbdjkkfgcdmgel
+After:  hiilojpbdjkkfgcdmgellh
+
+bJa
+Before: hiilojpbdjkkfgcdmgellh
+After:  hiilojpbdjkkfgcdmgellhe
+
+>> push 13 Uik o
+
+Uik
+Before: n
+After:  no
+
+umQ
+Before: hiilojpbjkkfgmec
+After:  hiilojpbdjkkfgcdmgec
+
+bJa
+Before: hiilojpbdjkkfgcdmgellhe
+After:  hiilojpbdjkkfgcdmgellhec
+
+PGt
+Before: hilojpbdjkkfgcdmgelheci
+After:  hilojpbdjkkfgcdmgelhecif
+
+Fo9
+Before: hiilojpbdjkkfgcdmge
+After:  hiilojpbdjkkfgcdmgellh
+
+UED
+Before: hilojpbdjkkfgcdmgele
+After:  hilojapbdjkkfgcdmgele
+
+UED
+Before: hilojapbdjkkfgcdmgele
+After:  hilojapbdjkkfgcdmgeleb
+
+ums
+Before: hiilojpbdjkkfgcdmgee
+After:  hiilojapbdjkkfgcdmgee
+
+ums
+Before: hiilojapbdjkkfgcdmgee
+After:  hiilojapbdjkkfgcdmgellhe
+
+ums
+Before: hiilojapbdjkkfgcdmgellhe
+After:  hiilojapbdjkkfgcdmgellheb
+
+MBt
+Before: hiilojpbdjkkfgcdmgelec
+After:  hiiflojpbdjkkfgcdmgelec
+
+>> push 6 TK1 h
+
+TK1
+Before: lopbjkkfgmge
+After:  lopbjkkfgmgeh
+
+>> push 10 UED m
+
+UED
+Before: hilojapbdjkkfgcdmgeleb
+After:  hilojapbdjkkfgcdmgelebm
+
+>> push 8 92B j
+
+92B
+Before: hiilojpbdjkkfgcdmge
+After:  hiilojpbdjkkfgcdmgej
+
+92B
+Before: hiilojpbdjkkfgcdmgej
+After:  hiilojpbdjkkfgcdmgejlhe
+
+92B
+Before: hiilojpbdjkkfgcdmgejlhe
+After:  hiilojpbdjkkfgcdmgejlhec
+
+92B
+Before: hiilojpbdjkkfgcdmgejlhec
+After:  hiiflojpbdjkkfgcdmgejlhec
+
+bJa
+Before: hiilojpbdjkkfgcdmgellhec
+After:  hiiflojpbdjkkfgcdmgellhec
+
+Fo9
+Before: hiilojpbdjkkfgcdmgellh
+After:  hiilojpbdjkkfgcdmgellhec
+
+ums
+Before: hiilojapbdjkkfgcdmgellheb
+After:  hiilojapbdjkkfgcdmgellhecb
+
+>> push 11 CNo m
+
+CNo
+Before: l
+After:  lm
+
+VdK
+Before: hilojpbdjkkfgcdmgeecif
+After:  hilojapbdjkkfgcdmgeecif
+
+VdK
+Before: hilojapbdjkkfgcdmgeecif
+After:  hilojapbdjkkfgcdmgellhecif
+
+VdK
+Before: hilojapbdjkkfgcdmgellhecif
+After:  hilojapbdjkkfgcdmgellhecbif
+
+PGt
+Before: hilojpbdjkkfgcdmgelhecif
+After:  hilojapbdjkkfgcdmgelhecif
+
+PGt
+Before: hilojapbdjkkfgcdmgelhecif
+After:  hilojapbdjkkfgcdmgelhecbmif
+
+MBt
+Before: hiiflojpbdjkkfgcdmgelec
+After:  hiiflojapbdjkkfgcdmgelec
+
+MBt
+Before: hiiflojapbdjkkfgcdmgelec
+After:  hiiflojapbdjkkfgcdmgellhec
+
+MBt
+Before: hiiflojapbdjkkfgcdmgellhec
+After:  hiiflojapbdjkkfgcdmgellhecbm
+
+>> push 0 S8c c
+
+S8c
+Before: hiloapbjkkfgmgeb
+After:  hiloapbjkkfgmgebc
+
+umQ
+Before: hiilojpbdjkkfgcdmgec
+After:  hiilojpbdjkkfgcdmgelhc
+
+umQ
+Before: hiilojpbdjkkfgcdmgelhc
+After:  hiilojpbdjkkfgcdmgelhec
+
+umQ
+Before: hiilojpbdjkkfgcdmgelhec
+After:  hiiflojpbdjkkfgcdmgelhec
+
+TK1
+Before: lopbjkkfgmgeh
+After:  lojpbhidjkkfgcdmgeh
+
+TK1
+Before: lojpbhidjkkfgcdmgeh
+After:  lojpbhidjkkfgcdmgelheh
+
+TK1
+Before: lojpbhidjkkfgcdmgelheh
+After:  lojpbhidjkkfgcdmgelhehci
+
+TK1
+Before: lojpbhidjkkfgcdmgelhehci
+After:  lojpbhidjkkfgcdmgelhehcif
+
+VdK
+Before: hilojapbdjkkfgcdmgellhecbif
+After:  hilmojapbdjkkfgcdmgellhecbif
+
+umQ
+Before: hiiflojpbdjkkfgcdmgelhec
+After:  hiiflmojpbdjkkfgcdmgelhec
+
+umQ
+Before: hiiflmojpbdjkkfgcdmgelhec
+After:  hiiflmojapbdjkkfgcdmgelhec
+
+umQ
+Before: hiiflmojapbdjkkfgcdmgelhec
+After:  hiiflmojapbdjkkfgcdmgelhecbm
+
+PGt
+Before: hilojapbdjkkfgcdmgelhecbmif
+After:  hilmojapbdjkkfgcdmgelhecbmif
+
+UED
+Before: hilojapbdjkkfgcdmgelebm
+After:  hilojapbdjkkfgcdmgelebmc
+
+ums
+Before: hiilojapbdjkkfgcdmgellhecb
+After:  hiiflojapbdjkkfgcdmgellhecb
+
+ums
+Before: hiiflojapbdjkkfgcdmgellhecb
+After:  hiiflojapbdjkkfgcdmgellhecbc
+
+MBt
+Before: hiiflojapbdjkkfgcdmgellhecbm
+After:  hiiflmojapbdjkkfgcdmgellhecbm
+
+TK1
+Before: lojpbhidjkkfgcdmgelhehcif
+After:  lmojpbhidjkkfgcdmgelhehcif
+
+TK1
+Before: lmojpbhidjkkfgcdmgelhehcif
+After:  lmojapbhidjkkfgcdmgelhehcif
+
+TK1
+Before: lmojapbhidjkkfgcdmgelhehcif
+After:  lmojapbhidjkkfgcdmgelhehcbmif
+
+rjU
+Before: lopm
+After:  lmopm
+
+>> push 12 aKg n
+
+aKg
+Before: m
+After:  mn
+
+>> push 14 rjU q
+
+rjU
+Before: lmopm
+After:  lmopmq
+
+>> push 3 Fo9 e
+
+Fo9
+Before: hiilojpbdjkkfgcdmgellhec
+After:  hiilojpbdjkkfgcdmgellhece
+
+>> push 11 CNo n
+
+CNo
+Before: lm
+After:  lmn
+
+bJa
+Before: hiiflojpbdjkkfgcdmgellhec
+After:  hiiflojpbdjkkfgcdmgejllhec
+
+bJa
+Before: hiiflojpbdjkkfgcdmgejllhec
+After:  hiiflojapbdjkkfgcdmgejllhec
+
+bJa
+Before: hiiflojapbdjkkfgcdmgejllhec
+After:  hiiflojapbdjkkfgcdmgejllhecbm
+
+Fo9
+Before: hiilojpbdjkkfgcdmgellhece
+After:  hiiflojpbdjkkfgcdmgellhece
+
+Fo9
+Before: hiiflojpbdjkkfgcdmgellhece
+After:  hiiflojpbdjkkfgcdmgejllhece
+
+S8c
+Before: hiloapbjkkfgmgebc
+After:  hilojapbidjkkfgcdmgebc
+
+S8c
+Before: hilojapbidjkkfgcdmgebc
+After:  hilojapbidjkkfgcdmgehbc
+
+S8c
+Before: hilojapbidjkkfgcdmgehbc
+After:  hilojapbidjkkfgcdmgellhhbc
+
+S8c
+Before: hilojapbidjkkfgcdmgellhhbc
+After:  hilojapbidjkkfgcdmgellhehbc
+
+S8c
+Before: hilojapbidjkkfgcdmgellhehbc
+After:  hilojapbidjkkfgcdmgellhehcbc
+
+S8c
+Before: hilojapbidjkkfgcdmgellhehcbc
+After:  hilojapbifdjkkfgcdmgellhehcbc
+
+bJa
+Before: hiiflojapbdjkkfgcdmgejllhecbm
+After:  hiiflmojapbdjkkfgcdmgejllhecbm
+
+PGt
+Before: hilmojapbdjkkfgcdmgelhecbmif
+After:  hinolmojapbdjkkfgcdmgelhecbmif
+
+>> push 1 umQ d
+
+umQ
+Before: hiiflmojapbdjkkfgcdmgelhecbm
+After:  hiiflmojapbdjkkfgcdmgelhecbmd
+
+VdK
+Before: hilmojapbdjkkfgcdmgellhecbif
+After:  hilmnojapbdjkkfgcdmgellhecbif
+
+VdK
+Before: hilmnojapbdjkkfgcdmgellhecbif
+After:  hilmnojapbdjkkfgcdmgellhecbnif
+
+bJa
+Before: hiiflmojapbdjkkfgcdmgejllhecbm
+After:  hiiflmojapbdjkkfgcdmgejllhecbmn
+
+PGt
+Before: hinolmojapbdjkkfgcdmgelhecbmif
+After:  hinolmnojapbdjkkfgcdmgelhecbmif
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgelhecbmif
+After:  hinolmnojapbdjkkfgcdmgelhecbmnif
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgelhecbmnif
+After:  hinolmnojapbdjkkfgcdmgelhecbmcnif
+
+Fo9
+Before: hiiflojpbdjkkfgcdmgejllhece
+After:  hiiflojapbdjkkfgcdmgejllhece
+
+Fo9
+Before: hiiflojapbdjkkfgcdmgejllhece
+After:  hiiflojapbdjkkfgcdmgejllhecebm
+
+ums
+Before: hiiflojapbdjkkfgcdmgellhecbc
+After:  hiiflojapbdjkkfgcdmgejllhecbc
+
+ums
+Before: hiiflojapbdjkkfgcdmgejllhecbc
+After:  hiiflojapbdjkkfgcdmgejllhecbmc
+
+MBt
+Before: hiiflmojapbdjkkfgcdmgellhecbm
+After:  hiiflmnojapbdjkkfgcdmgellhecbm
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgellhecbm
+After:  hiiflmnojapbdjkkfgcdmgellhecbmn
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgellhecbmn
+After:  hiiflmnojapbdjkkfgcdmgellhecbmcn
+
+TK1
+Before: lmojapbhidjkkfgcdmgelhehcbmif
+After:  lmnojapbhidjkkfgcdmgelhehcbmif
+
+TK1
+Before: lmnojapbhidjkkfgcdmgelhehcbmif
+After:  lmnojapbhidjkkfgcdmgelhehcbmnif
+
+S8c
+Before: hilojapbifdjkkfgcdmgellhehcbc
+After:  hilmojapbifdjkkfgcdmgellhehcbc
+
+S8c
+Before: hilmojapbifdjkkfgcdmgellhehcbc
+After:  hilmojapbifdjkkfgcdmgellhehcebc
+
+S8c
+Before: hilmojapbifdjkkfgcdmgellhehcebc
+After:  hilmojapbifdjkkfgcdmgellhehcebcn
+
+S8c
+Before: hilmojapbifdjkkfgcdmgellhehcebcn
+After:  hilmojapbifdjkkfgcdmgejllhehcebcn
+
+S8c
+Before: hilmojapbifdjkkfgcdmgejllhehcebcn
+After:  hilmojapbifdjkkfgcdmqgejllhehcebcn
+
+S8c
+Before: hilmojapbifdjkkfgcdmqgejllhehcebcn
+After:  hilmojapbifdjkkfgcdmqgejllhehcebmcn
+
+rjU
+Before: lmopmq
+After:  lmnopmq
+
+rjU
+Before: lmnopmq
+After:  lmnopjkfgmq
+
+rjU
+Before: lmnopjkfgmq
+After:  lmnopjkfgmqn
+
+rjU
+Before: lmnopjkfgmqn
+After:  hilmnopjkkfgmqgen
+
+aKg
+Before: mn
+After:  lopfgmn
+
+>> push 4 VdK g
+
+VdK
+Before: hilmnojapbdjkkfgcdmgellhecbnif
+After:  hilmnojapbdjkkfgcdmgellhecbnifg
+
+umQ
+Before: hiiflmojapbdjkkfgcdmgelhecbmd
+After:  hiiflmnojapbdjkkfgcdmgelhecbmd
+
+umQ
+Before: hiiflmnojapbdjkkfgcdmgelhecbmd
+After:  hiifnolmnojapbdjkkfgcdmgelhecbmd
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmgelhecbmd
+After:  hiifnolmnojapbdjkkfgcdmgejlhecbmd
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmgejlhecbmd
+After:  hiifnolmnojapbdjkkfgcdmqgejlhecbmd
+
+VdK
+Before: hilmnojapbdjkkfgcdmgellhecbnifg
+After:  hilmnojapbdjkkfgcdmgellhecbcnifg
+
+VdK
+Before: hilmnojapbdjkkfgcdmgellhecbcnifg
+After:  hilmnojapbdjkkfgcdmgejllhecbcnifg
+
+VdK
+Before: hilmnojapbdjkkfgcdmgejllhecbcnifg
+After:  hilmnojapbdjkkfgcdmgejllhecbmcnifg
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmqgejlhecbmd
+After:  hiifnolmnojapbdjkkfgcdmqgejlhecbmdn
+
+Fo9
+Before: hiiflojapbdjkkfgcdmgejllhecebm
+After:  hiifnolojapbdjkkfgcdmgejllhecebm
+
+Fo9
+Before: hiifnolojapbdjkkfgcdmgejllhecebm
+After:  hiifnolmojapbdjkkfgcdmgejllhecebm
+
+Fo9
+Before: hiifnolmojapbdjkkfgcdmgejllhecebm
+After:  hiifnolmojapbdjkkfgcdmqgejllhecebm
+
+Fo9
+Before: hiifnolmojapbdjkkfgcdmqgejllhecebm
+After:  hiifnolmojapbdjkkfgcdmqgejllhecebmn
+
+Fo9
+Before: hiifnolmojapbdjkkfgcdmqgejllhecebmn
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmn
+
+ums
+Before: hiiflojapbdjkkfgcdmgejllhecbmc
+After:  hiiflmojapbdjkkfgcdmgejllhecbmc
+
+ums
+Before: hiiflmojapbdjkkfgcdmgejllhecbmc
+After:  hiiflmojapbdjkkfgcdmgejllhecbmcn
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgellhecbmcn
+After:  hiiflmnojapbdjkkfgcdmgejllhecbmcn
+
+rjU
+Before: hilmnopjkkfgmqgen
+After:  hilmnopbjkkfgmqgen
+
+>> push 12 aKg o
+
+aKg
+Before: lopfgmn
+After:  lopfgmno
+
+92B
+Before: hiiflojpbdjkkfgcdmgejlhec
+After:  hiiflojapbdjkkfgcdmgejlhec
+
+92B
+Before: hiiflojapbdjkkfgcdmgejlhec
+After:  hiiflojapbdjkkfgcdmgejllhec
+
+92B
+Before: hiiflojapbdjkkfgcdmgejllhec
+After:  hiiflojapbdjkkfgcdmgejllhecb
+
+92B
+Before: hiiflojapbdjkkfgcdmgejllhecb
+After:  hiiflmojapbdjkkfgcdmgejllhecb
+
+92B
+Before: hiiflmojapbdjkkfgcdmgejllhecb
+After:  hiiflmnojapbdjkkfgcdmgejllhecb
+
+92B
+Before: hiiflmnojapbdjkkfgcdmgejllhecb
+After:  hiiflmnojapbdjkkfgcdmgejllhecbn
+
+TK1
+Before: lmnojapbhidjkkfgcdmgelhehcbmnif
+After:  nolmnojapbhidjkkfgcdmgelhehcbmnif
+
+>> push 6 TK1 i
+
+TK1
+Before: nolmnojapbhidjkkfgcdmgelhehcbmnif
+After:  nolmnojapbhidjkkfgcdmgelhehcbmnifi
+
+bJa
+Before: hiiflmojapbdjkkfgcdmgejllhecbmn
+After:  hiifnolmojapbdjkkfgcdmgejllhecbmn
+
+bJa
+Before: hiifnolmojapbdjkkfgcdmgejllhecbmn
+After:  hiifnolmojapbdjkkfgcdmgejllhecbmno
+
+bJa
+Before: hiifnolmojapbdjkkfgcdmgejllhecbmno
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmno
+
+bJa
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmno
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmcno
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmqgejlhecbmdn
+After:  hiifnolmnojapbdjkkfgcdmqgejlhecbmdcn
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgelhecbmcnif
+After:  hinolmnojapbdjkkfgcdmgelhecbmcnoif
+
+ums
+Before: hiiflmojapbdjkkfgcdmgejllhecbmcn
+After:  hiiflmojapbdjkkfgcdmgejllhehcbmcn
+
+ums
+Before: hiiflmojapbdjkkfgcdmgejllhehcbmcn
+After:  hiiflmojapbdjkkfgcdmgejllhehcebmcn
+
+ums
+Before: hiiflmojapbdjkkfgcdmgejllhehcebmcn
+After:  hiiflmojapbdjkkfgcdmqgejllhehcebmcn
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgejllhecbmcn
+After:  hiiflmnojapbdjkkfgcdmgejllhecbmcno
+
+TK1
+Before: nolmnojapbhidjkkfgcdmgelhehcbmnifi
+After:  nolmnojapbhidjkkfgcdmgelhehcbmnoifi
+
+Uik
+Before: no
+After:  hinolojpbdjkkfgcdmgeecif
+
+Uik
+Before: hinolojpbdjkkfgcdmgeecif
+After:  hinolojapbdjkkfgcdmgeecif
+
+Uik
+Before: hinolojapbdjkkfgcdmgeecif
+After:  hinolojapbdjkkfgcdmgellhecif
+
+Uik
+Before: hinolojapbdjkkfgcdmgellhecif
+After:  hinolojapbdjkkfgcdmgellhecbif
+
+Uik
+Before: hinolojapbdjkkfgcdmgellhecbif
+After:  hinolmojapbdjkkfgcdmgellhecbif
+
+S8c
+Before: hilmojapbifdjkkfgcdmqgejllhehcebmcn
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmcn
+
+aKg
+Before: lopfgmno
+After:  hilojpbdjkkfgcdmgeno
+
+aKg
+Before: hilojpbdjkkfgcdmgeno
+After:  hinolojpbdjkkfgcdmgeno
+
+aKg
+Before: hinolojpbdjkkfgcdmgeno
+After:  hiinolojpbdjkkfgcdmgecno
+
+VdK
+Before: hilmnojapbdjkkfgcdmgejllhecbmcnifg
+After:  hilmnojapbdjkkfgcdmgejllhecbmcnoifg
+
+>> push 8 92B k
+
+92B
+Before: hiiflmnojapbdjkkfgcdmgejllhecbn
+After:  hiiflmnojapbdjkkfgcdmgejllhecbnk
+
+>> push 3 Fo9 f
+
+Fo9
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmn
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmnf
+
+>> push 13 Uik p
+
+Uik
+Before: hinolmojapbdjkkfgcdmgellhecbif
+After:  hinolmojapbdjkkfgcdmgellhecbifp
+
+rjU
+Before: hilmnopbjkkfgmqgen
+After:  hilmnojpbidjkkfgcdmqgen
+
+rjU
+Before: hilmnojpbidjkkfgcdmqgen
+After:  hilmnojpbifdjkkfgcdmqgejllhecn
+
+rjU
+Before: hilmnojpbifdjkkfgcdmqgejllhecn
+After:  hilmnojapbifdjkkfgcdmqgejllhecn
+
+rjU
+Before: hilmnojapbifdjkkfgcdmqgejllhecn
+After:  hilmnojapbifdjkkfgcdmqgejllhecbmn
+
+rjU
+Before: hilmnojapbifdjkkfgcdmqgejllhecbmn
+After:  hilmnojapbifgdjkkfgcdmqgejllhecbmn
+
+rjU
+Before: hilmnojapbifgdjkkfgcdmqgejllhecbmn
+After:  hilmnojapbifgdjkkfgcdmqgejllhecbmcn
+
+UED
+Before: hilojapbdjkkfgcdmgelebmc
+After:  hilojapbidjkkfgcdmgelebmc
+
+UED
+Before: hilojapbidjkkfgcdmgelebmc
+After:  hilojapbifdjkkfgcdmgellhehcbmc
+
+UED
+Before: hilojapbifdjkkfgcdmgellhehcbmc
+After:  hilmojapbifdjkkfgcdmgellhehcbmc
+
+UED
+Before: hilmojapbifdjkkfgcdmgellhehcbmc
+After:  hilmojapbifdjkkfgcdmgellhehcebmc
+
+UED
+Before: hilmojapbifdjkkfgcdmgellhehcebmc
+After:  hilmojapbifdjkkfgcdmgellhehcebmcn
+
+UED
+Before: hilmojapbifdjkkfgcdmgellhehcebmcn
+After:  hilmojapbifdjkkfgcdmgejllhehcebmcn
+
+UED
+Before: hilmojapbifdjkkfgcdmgejllhehcebmcn
+After:  hilmojapbifdjkkfgcdmqgejllhehcebmcn
+
+VdK
+Before: hilmnojapbdjkkfgcdmgejllhecbmcnoifg
+After:  hilmnojapbdjkkfgcdmgejllhehcbmcnoifg
+
+VdK
+Before: hilmnojapbdjkkfgcdmgejllhehcbmcnoifg
+After:  hinolmnojapbdjkkfgcdmgejllhehcbmcnoifg
+
+VdK
+Before: hinolmnojapbdjkkfgcdmgejllhehcbmcnoifg
+After:  hinolmnojapbdjkkfgcdmgejllhehcebmcnoifg
+
+VdK
+Before: hinolmnojapbdjkkfgcdmgejllhehcebmcnoifg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifg
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgelhecbmcnoif
+After:  hinolmnojapbdjkkfgcdmgellhecbmcnoif
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgejllhecbmcno
+After:  hiiflmnojapbdjkkfgcdmgejllhehcbmcno
+
+MBt
+Before: hiiflmnojapbdjkkfgcdmgejllhehcbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcbmcno
+
+MBt
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcebmcno
+
+MBt
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcebmcno
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmcno
+
+Fo9
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmnf
+After:  hiifgnolmnojapbdjkkfgcdmqgejllhecebmnf
+
+Fo9
+Before: hiifgnolmnojapbdjkkfgcdmqgejllhecebmnf
+After:  hiifgnolmnojapbdjkkfgcdmqgejllhecebmcnf
+
+ums
+Before: hiiflmojapbdjkkfgcdmqgejllhehcebmcn
+After:  hiifnolmojapbdjkkfgcdmqgejllhehcebmcn
+
+ums
+Before: hiifnolmojapbdjkkfgcdmqgejllhehcebmcn
+After:  hiifnolmojapbdjkkfgcdmqgejllhehcebmcno
+
+ums
+Before: hiifnolmojapbdjkkfgcdmqgejllhehcebmcno
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmcno
+
+Uik
+Before: hinolmojapbdjkkfgcdmgellhecbifp
+After:  hinolmojapbdjkkfgcdmgellhecbmifp
+
+Uik
+Before: hinolmojapbdjkkfgcdmgellhecbmifp
+After:  hinolmojapbdjkkfgcdmgellhecbmcifp
+
+S8c
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmcn
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmcno
+
+S8c
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmcno
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmdcno
+
+aKg
+Before: hiinolojpbdjkkfgcdmgecno
+After:  hiifnolmojapbdjkkfgcdmgelhecbmno
+
+aKg
+Before: hiifnolmojapbdjkkfgcdmgelhecbmno
+After:  hiifnolmnojapbdjkkfgcdmgelhecbmno
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgelhecbmno
+After:  hiifnolmnojapbdjkkfgcdmgelhecbmcno
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgellhecbmcnoif
+After:  hinolmnojapbdjkkfgcdmgejllhecbmcnoif
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgejllhecbmcnoif
+After:  hinolmnojapbdjkkfgcdmgejllhehcbmcnoif
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgejllhehcbmcnoif
+After:  hinolmnojapbdjkkfgcdmgejllhehcebmcnoif
+
+PGt
+Before: hinolmnojapbdjkkfgcdmgejllhehcebmcnoif
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoif
+
+UED
+Before: hilmojapbifdjkkfgcdmqgejllhehcebmcn
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmcn
+
+UED
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmcn
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmcno
+
+UED
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmcno
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmcnono
+
+S8c
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmdcno
+After:  hinolmnojapbifdjkkfgcdmqgejllhehcebmdcno
+
+S8c
+Before: hinolmnojapbifdjkkfgcdmqgejllhehcebmdcno
+After:  hinolmnojapbifdjkkfgcdmqgejllhehcebmdcnko
+
+S8c
+Before: hinolmnojapbifdjkkfgcdmqgejllhehcebmdcnko
+After:  hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnko
+
+rjU
+Before: hilmnojapbifgdjkkfgcdmqgejllhecbmcn
+After:  hilmnojapbifgdjkkfgcdmqgejllhecebmcn
+
+rjU
+Before: hilmnojapbifgdjkkfgcdmqgejllhecebmcn
+After:  hinolmnojapbifgdjkkfgcdmqgejllhecebmcn
+
+92B
+Before: hiiflmnojapbdjkkfgcdmgejllhecbnk
+After:  hiiflmnojapbdjkkfgcdmgejllhecbmnk
+
+92B
+Before: hiiflmnojapbdjkkfgcdmgejllhecbmnk
+After:  hiiflmnojapbdjkkfgcdmgejllhecbmcnk
+
+UED
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmcnono
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmdcnono
+
+UED
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmdcnono
+After:  hilmnojapbifdjkkfgcdmqgejllhehcebmdcnkono
+
+MBt
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmcno
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+
+MBt
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+CNo
+Before: lmn
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmn
+
+CNo
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmn
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmnf
+
+Uik
+Before: hinolmojapbdjkkfgcdmgellhecbmcifp
+After:  hinolmnojapbdjkkfgcdmgellhecbmcifp
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgellhecbmcifp
+After:  hinolmnojapbdjkkfgcdmgellhecbmcnifp
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgellhecbmcnifp
+After:  hinolmnojapbdjkkfgcdmgellhecbmcnifpg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgellhecbmcnifpg
+After:  hinolmnojapbdjkkfgcdmgejllhecbmcnifpg
+
+bJa
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcbmcno
+
+bJa
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcbmcno
+After:  hiifinolmnojapbdjkkfgcdmgejllhehcbmcno
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoif
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifp
+
+Fo9
+Before: hiifgnolmnojapbdjkkfgcdmqgejllhecebmcnf
+After:  hiifgnolmnojapbdjkkfgcdmqgejllhehcebmcnf
+
+Fo9
+Before: hiifgnolmnojapbdjkkfgcdmqgejllhehcebmcnf
+After:  hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnf
+
+Fo9
+Before: hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnf
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnf
+
+Fo9
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnf
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+
+UED
+Before: hilmnojapbifdjkkfgcdmqgejllhehcebmdcnkono
+After:  hilmnojapbifgdjkkfgcdmqgejllhehcebmdcnkono
+
+MBt
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+92B
+Before: hiiflmnojapbdjkkfgcdmgejllhecbmcnk
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmcnk
+
+92B
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmcnk
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmcnko
+
+92B
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmcnko
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcbmcnko
+
+92B
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcbmcnko
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcebmcnko
+
+92B
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcebmcnko
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmqgejlhecbmdcn
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecbmdcn
+
+ums
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmcno
+After:  hiifinolmnojapbdjkkfgcdmqgejllhehcebmcno
+
+TK1
+Before: nolmnojapbhidjkkfgcdmgelhehcbmnoifi
+After:  nolmnojapbhidjkkfgcdmgelhehcbmcnoifi
+
+92B
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+After:  hiifpnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgejllhecbmcnifpg
+After:  hinolmnojapbdjkkfgcdmgejllhehcbmcnifpg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgejllhehcbmcnifpg
+After:  hinolmnojapbdjkkfgcdmgejllhehcebmcnifpg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmgejllhehcebmcnifpg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnifpg
+
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhecebmcn
+After:  hinolmnojapbifgdjkkfgcdmqgejllhecebmcno
+
+CNo
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmnf
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmnfo
+
+CNo
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmnfo
+After:  hiifnolmnojapbdjkkfgcdmqgejllhecebmcnfo
+
+VdK
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifig
+
+92B
+Before: hiifpnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgelhecbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejlhecbmcno
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgejlhecbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmcno
+
+umQ
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecbmdcn
+After:  hiifpnolmnojapbdjkkfgcdmqgejllhecbmdcn
+
+Uik
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnifpg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifpg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifpg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifipg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifipg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnoifipg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnoifipg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifipg
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifp
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnoifp
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnoifp
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifp
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifp
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifpg
+
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhecebmcno
+After:  hinolmnojapbifgdjkkfgcdmqgejllhehcebmcno
+
+Fo9
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+
+CNo
+Before: hiifnolmnojapbdjkkfgcdmqgejllhecebmcnfo
+After:  hiifinolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmcno
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmcnko
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmcnko
+After:  hiifnolmnojapbdjkkfgcdmgejllhecbmdcnko
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgejllhecbmdcnko
+After:  hiifnolmnojapbdjkkfgcdmgejllhehcbmdcnko
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmgejllhehcbmdcnko
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcbmdcnko
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcbmdcnko
+After:  hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+TK1
+Before: nolmnojapbhidjkkfgcdmgelhehcbmcnoifi
+After:  nolmnojapbhidjkkfgcdmqgejllhehcebmcnfoifi
+
+TK1
+Before: nolmnojapbhidjkkfgcdmqgejllhehcebmcnfoifi
+After:  nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifi
+
+umQ
+Before: hiifpnolmnojapbdjkkfgcdmqgejllhecbmdcn
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhecbmdcn
+
+92B
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmcnko
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+umQ
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhecbmdcn
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcbmdcn
+
+umQ
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcbmdcn
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcn
+
+umQ
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcn
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+
+umQ
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+
+umQ
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcno
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+VdK
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnoifig
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmcnfoifig
+
+VdK
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmcnfoifig
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfoifig
+
+VdK
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfoifig
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifig
+
+VdK
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifig
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+
+MBt
+Before: hiifgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+MBt
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+CNo
+Before: hiifinolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+After:  hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+
+aKg
+Before: hiifnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifpnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+aKg
+Before: hiifpnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+Fo9
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*4
+*3
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhehcebmcno
+After:  hinolmnojapbifgdjkkfgcdmqgejllhehcebmcnfo
+
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhehcebmcnfo
+After:  hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnfo
+
+TK1
+Before: nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifi
+After:  nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifip
+
+92B
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+92B
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*8
+bJa
+Before: hiifinolmnojapbdjkkfgcdmgejllhehcbmcno
+After:  hiifinolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnfo
+After:  hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnfko
+
+CNo
+Before: hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+After:  hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnfko
+
+aKg
+Before: hiifpgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifpg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifpg
+
+umQ
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*1
+MBt
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+ums
+Before: hiifinolmnojapbdjkkfgcdmqgejllhehcebmcno
+After:  hiifinolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+
+ums
+Before: hiifinolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+
+ums
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+
+ums
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*7
+*2
+rjU
+Before: hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnfko
+After:  hinolmnojapbifigdjkkfgcdmqgejllhehcebmdcnfko
+
+TK1
+Before: nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifip
+After:  nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifipg
+
+TK1
+Before: nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfoifipg
+After:  nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfkoifipg
+
+*6
+CNo
+Before: hiifignolmnojapbdjkkfgcdmqgejllhehcebmcnfko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfko
+
+bJa
+Before: hiifinolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+After:  hiifipnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+
+PGt
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifpg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+
+Uik
+Before: hinolmnojapbdjkkfgcdmqgejllhehcebmdcnkoifipg
+After:  hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+
+*5
+*13
+CNo
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmcnfko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*11
+S8c
+Before: hinolmnojapbifgdjkkfgcdmqgejllhehcebmdcnko
+After:  hinolmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfko
+
+*0
+bJa
+Before: hiifipnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+
+bJa
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfo
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*9
+rjU
+Before: hinolmnojapbifigdjkkfgcdmqgejllhehcebmdcnfko
+After:  hinolmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfko
+
+*14
+UED
+Before: hilmnojapbifgdjkkfgcdmqgejllhehcebmdcnkono
+After:  hilmnojapbifigdjkkfgcdmqgejllhehcebmdcnkono
+
+UED
+Before: hilmnojapbifigdjkkfgcdmqgejllhehcebmdcnkono
+After:  hilmnojapbifigdjkkfgcdmqgejllhehcebmdcnfkono
+
+UED
+Before: hilmnojapbifigdjkkfgcdmqgejllhehcebmdcnfkono
+After:  hilmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfkono
+
+*10
+aKg
+Before: hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnko
+After:  hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+
+*12
+Done
+Sleep for 1s
+Value  0 S8c hinolmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfko
+Value  1 umQ hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value  2 ums hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value  3 Fo9 hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value  4 VdK hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+Value  5 PGt hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+Value  6 TK1 nolmnojapbhidjkkfgcdmqgejllhehcebmdcnfkoifipg
+Value  7 MBt hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value  8 92B hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value  9 bJa hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value 10 UED hilmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfkono
+Value 11 CNo hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value 12 aKg hiifipgnolmnojapbdjkkfgcdmqgejllhehcebmdcnfko
+Value 13 Uik hinolmnojapbdjkkfgcdmqgejllhehcebmdcnfkoifipg
+Value 14 rjU hinolmnojapbifipgdjkkfgcdmqgejllhehcebmdcnfko
+  [31m  1) handles random changes[0m
+
+
+[92m [0m[32m 1 passing[0m[90m (27s)[0m
+[31m  1 failing[0m
+
+[0m  1) collaboration with random changes
+       handles random changes:
+
+      [31mAssertionError: expected [ Array(45) ] to deeply equal [ Array(45) ][0m
+      [32m+ expected[0m [31m- actual[0m
+
+       [
+         "h"
+         "i"
+      [31m-  "i"[0m
+      [31m-  "f"[0m
+      [31m-  "i"[0m
+      [31m-  "p"[0m
+      [31m-  "g"[0m
+         "n"
+         "o"
+         "l"
+         "m"
+--
+         "j"
+         "a"
+         "p"
+         "b"
+      [32m+  "i"[0m
+      [32m+  "f"[0m
+      [32m+  "i"[0m
+      [32m+  "p"[0m
+      [32m+  "g"[0m
+         "d"
+         "j"
+         "k"
+         "k"
+      [0m[90m
+      at Context.it (test/collaboration-random.spec.js:169:35)
+[0m
+
+
+Command failed: mocha --timeout 5000 --ui bdd --colors --exit test/collaboration-random.spec.js
+null
+null
+Error: Command failed: mocha --timeout 5000 --ui bdd --colors --exit test/collaboration-random.spec.js
+null
+null
+    at makeError (/home/test1/peer-pad-load-test/peer-base/node_modules/execa/index.js:174:9)
+    at Promise.all.then.arr (/home/test1/peer-pad-load-test/peer-base/node_modules/execa/index.js:278:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
