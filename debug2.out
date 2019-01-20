@@ -1,0 +1,1359 @@
+Test Node.js
+rendezvous: Listening on: http://0.0.0.0:9090
+
+[0m[0m
+[0m  collaboration with random changes[0m
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmdXPocZdyJyzXTCc5Z8Mfw35KV1ezC1St8es8UDYKMums
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcnJwXLUE27YpyPR7GwRF8h6o1ouR6iBkcTUk9sShXS8c
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmWxQttBj8b2S2vwDyxwxh3uWcbzs5Gxc1digTNx8BE92B
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmVPQLtqBwFga3HPRCVZT6ygk9qtXi8aRqTp72i6UTXPGt
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmYhezh22kguEdAHB6uqQKLFmT13K46oonvn3jFwCiyumQ
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmZrpe3pyKyNmjucMGgEsBAjRcGkcdgb3avsqYHTFndTK1
+(node:17501) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:17501) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+(node:17501) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 start listeners added. Use emitter.setMaxListeners() to increase limit
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmV8Cu1WNqBw6jHkBun8SHyuv8gHhpiHvtHww6EBkBWMBt
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/Qme7CEg2BoAXsbWgzEDefH3MFmPfqTAASuwE1ETz59sVdK
+Swarm listening on /ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/Qmc5WHmQzyBn9pi6qrMg9XHcU7m51Myo5CchEjMb3qmFo9
+  [32m  ✓[0m[90m can be created[0m[31m (3167ms)[0m
+
+>> push 4 VdK i
+Join: i
+
+VdK
+Before: 
+After:  i
+
+>> push 4 VdK j
+Join: j
+
+VdK
+Before: i
+After:  ij
+
+>> push 7 MBt o
+Join: o
+
+MBt
+Before: 
+After:  o
+
+>> push 5 PGt k
+Join: k
+
+PGt
+Before: 
+After:  k
+
+>> push 0 S8c a
+Join: a
+
+S8c
+Before: 
+After:  a
+
+>> push 8 92B q
+Join: q
+
+92B
+Before: 
+After:  q
+Join: i
+Join: j
+Join: i
+Join: j
+Join: k
+Join: i
+Join: j
+Join: k
+Join: k
+Jim received delta PGt <- VdK ij
+Join: ij
+
+PGt
+Before: k
+After:  kij
+Join: q
+Jim received delta 92B <- VdK ij
+Join: ij
+
+92B
+Before: q
+After:  qij
+Join: ij
+Jim received delta Fo9 <- PGt k
+Join: k
+
+Fo9
+Before: 
+After:  k
+Join: i
+Join: j
+Jim received delta VdK <- PGt k
+Join: k
+
+VdK
+Before: ij
+After:  kij
+Join: ij
+Join: k
+Join: ij
+Join: k
+Join: ij
+Join: q
+Join: ij
+Join: q
+Join: ij
+Jim received delta 92B <- PGt k
+Join: k
+
+92B
+Before: qij
+After:  qkij
+Join: k
+Join: k
+Join: k
+Jim received delta Fo9 <- 92B q
+Join: q
+
+Fo9
+Before: k
+After:  qk
+Jim received delta Fo9 <- 92B ij
+Join: ij
+
+Fo9
+Before: qk
+After:  qkij
+Jim received delta ums <- VdK ij
+Join: ij
+
+ums
+Before: 
+After:  ij
+Join: k
+Join: i
+Join: j
+Join: k
+Join: q
+Join: ij
+Join: k
+Jim received delta 92B <- Fo9 k
+Jim received delta TK1 <- VdK ij
+Join: ij
+
+TK1
+Before: 
+After:  ij
+Jim received delta TK1 <- PGt kij
+Join: kij
+
+TK1
+Before: ij
+After:  kij
+Join: q
+Join: k
+Join: q
+Jim received delta Fo9 <- PGt ij
+Join: ij
+Jim received delta ums <- 92B qij
+Join: qij
+
+ums
+Before: ij
+After:  qij
+Jim received delta ums <- 92B k
+Join: k
+
+ums
+Before: qij
+After:  qkij
+Jim received delta umQ <- PGt kij
+Join: kij
+
+umQ
+Before: 
+After:  kij
+Jim received delta umQ <- 92B qij
+Join: qij
+
+umQ
+Before: kij
+After:  qkij
+Jim received delta umQ <- 92B k
+Join: k
+Join: q
+Jim received delta VdK <- Fo9 q
+Join: q
+
+VdK
+Before: kij
+After:  qkij
+Jim received delta PGt <- Fo9 q
+Join: q
+
+PGt
+Before: kij
+After:  qkij
+Jim received delta TK1 <- 92B qijk
+Join: qijk
+
+TK1
+Before: kij
+After:  qkij
+Jim received delta TK1 <- VdK k
+Join: qijk
+Join: qijk
+Join: qij
+Jim received delta ums <- VdK k
+Jim received delta ums <- Fo9 kq
+Join: qij
+Jim received delta umQ <- VdK ijk
+Jim received delta umQ <- ums ij
+Join: qij
+
+>> push 0 S8c b
+Join: b
+
+S8c
+Before: a
+After:  ab
+Join: qij
+Join: qij
+Jim received delta VdK <- TK1 qijk
+Jim received delta PGt <- TK1 qijk
+Jim received delta PGt <- ums qij
+Jim received delta TK1 <- ums qij
+Jim received delta TK1 <- umQ qij
+
+>> push 3 Fo9 g
+Join: g
+
+Fo9
+Before: qkij
+After:  qkijg
+
+>> push 8 92B r
+Join: r
+
+92B
+Before: qkij
+After:  qkijr
+Jim received delta VdK <- ums qij
+Jim received delta VdK <- umQ qij
+Join: r
+Join: a
+Join: b
+Join: a
+Join: b
+Join: a
+Join: b
+Join: k
+Join: q
+Join: ij
+Join: g
+Jim received delta Fo9 <- 92B r
+Join: r
+
+Fo9
+Before: qkijg
+After:  qkijrg
+Jim received delta ums <- S8c ab
+Join: ab
+
+ums
+Before: qkij
+After:  abqkij
+Join: kij
+Join: qij
+Join: o
+Join: o
+Join: o
+Join: o
+Join: o
+Join: a
+Join: b
+Join: r
+Join: r
+
+>> push 5 PGt l
+Join: l
+
+PGt
+Before: qkij
+After:  qkijl
+Jim received delta VdK <- S8c ab
+Join: ab
+
+VdK
+Before: qkij
+After:  abqkij
+Join: q
+Join: ij
+Join: k
+Join: r
+Join: q
+Join: ij
+Join: k
+Join: r
+Jim received delta 92B <- S8c ab
+Join: ab
+
+92B
+Before: qkijr
+After:  abqkijr
+Jim received delta 92B <- MBt o
+Join: o
+
+92B
+Before: abqkijr
+After:  aboqkijr
+Join: o
+Join: ab
+Join: ij
+Join: kij
+Join: qijk
+Join: ij
+Join: kij
+Join: qijk
+Jim received delta TK1 <- MBt o
+Join: o
+
+TK1
+Before: qkij
+After:  oqkij
+Jim received delta TK1 <- 92B r
+Join: r
+
+TK1
+Before: oqkij
+After:  oqkijr
+Join: o
+Join: r
+Join: r
+Join: k
+Join: q
+Join: ij
+Join: g
+Join: r
+Jim received delta Fo9 <- MBt o
+Join: o
+
+Fo9
+Before: qkijrg
+After:  oqkijrg
+Join: g
+Join: r
+Join: o
+Join: g
+Join: r
+Join: o
+Join: r
+Join: o
+Join: ij
+Join: qij
+Join: k
+Join: ab
+Jim received delta ums <- 92B r
+Join: r
+
+ums
+Before: abqkij
+After:  abqkijr
+Join: ab
+Join: r
+Join: kij
+Join: qij
+Jim received delta umQ <- MBt o
+Join: o
+
+umQ
+Before: qkij
+After:  oqkij
+Join: o
+Join: a
+Join: b
+Jim received delta S8c <- Fo9 kqijg
+Join: kqijg
+
+S8c
+Before: ab
+After:  abqkijg
+Jim received delta S8c <- umQ kijq
+Join: kqijg
+Join: k
+Join: ij
+Join: q
+Join: l
+Jim received delta PGt <- MBt o
+Join: o
+
+PGt
+Before: qkijl
+After:  oqkijl
+Jim received delta PGt <- S8c ab
+Join: ab
+
+PGt
+Before: oqkijl
+After:  aboqkijl
+Join: l
+Join: o
+Join: ab
+Join: l
+Join: o
+Join: ab
+Join: l
+Join: o
+Join: ab
+Join: l
+Join: o
+Join: ab
+Join: o
+Join: ab
+Join: ab
+Join: ab
+Join: o
+Join: o
+Join: ab
+Join: o
+Join: o
+Join: o
+Join: r
+
+>> push 6 TK1 m
+Join: m
+
+TK1
+Before: oqkijr
+After:  oqkijrm
+Join: o
+Join: o
+Join: o
+Join: i
+Join: j
+Join: k
+Join: q
+Join: ab
+Jim received delta VdK <- PGt loab
+Join: loab
+
+VdK
+Before: abqkij
+After:  aboqkijl
+Jim received delta VdK <- Fo9 gro
+Join: gro
+
+VdK
+Before: aboqkijl
+After:  aboqkijrgl
+Jim received delta VdK <- MBt o
+Join: loab
+Join: gro
+Jim received delta 92B <- PGt loab
+Join: loab
+
+92B
+Before: aboqkijr
+After:  aboqkijrl
+Jim received delta 92B <- ums ab
+Jim received delta 92B <- VdK ab
+Join: m
+Join: m
+Join: m
+Jim received delta TK1 <- PGt loab
+Join: loab
+
+TK1
+Before: oqkijrm
+After:  oqkijrmlab
+Jim received delta TK1 <- 92B abo
+Jim received delta Fo9 <- 92B abo
+Join: abo
+
+Fo9
+Before: oqkijrg
+After:  aboqkijrg
+Jim received delta Fo9 <- TK1 o
+Jim received delta ums <- 92B o
+Join: o
+
+ums
+Before: abqkijr
+After:  aboqkijr
+Jim received delta ums <- TK1 o
+Jim received delta ums <- TK1 r
+Jim received delta umQ <- PGt loab
+Join: loab
+
+umQ
+Before: oqkij
+After:  oqkijlab
+Jim received delta umQ <- S8c ab
+Jim received delta umQ <- S8c kqijg
+Join: kqijg
+
+umQ
+Before: oqkijlab
+After:  oqkijglab
+Jim received delta MBt <- 92B qijkr
+Join: qijkr
+
+MBt
+Before: o
+After:  oqkijr
+Jim received delta MBt <- TK1 ijkq
+Jim received delta MBt <- Fo9 kqijgr
+Join: kqijgr
+
+MBt
+Before: oqkijr
+After:  oqkijrg
+Jim received delta MBt <- ums ijqkab
+Join: ijqkab
+
+MBt
+Before: oqkijrg
+After:  aboqkijrg
+Jim received delta MBt <- umQ kijq
+Jim received delta MBt <- 92B ab
+Jim received delta MBt <- TK1 r
+Jim received delta MBt <- ums r
+Join: kqijg
+Join: kqijg
+Join: kqijg
+Join: kqijg
+Join: a
+Join: b
+Join: kqijg
+Jim received delta S8c <- PGt kijql
+Join: kijql
+
+S8c
+Before: abqkijg
+After:  abqkijgl
+Jim received delta S8c <- 92B qijkr
+Join: qijkr
+
+S8c
+Before: abqkijgl
+After:  abqkijrgl
+Jim received delta S8c <- TK1 ijkq
+Jim received delta S8c <- Fo9 ro
+Join: ro
+
+S8c
+Before: abqkijrgl
+After:  abqkijrglo
+Join: kijql
+Join: qijkr
+Join: qijkr
+Join: kijql
+Join: qijkr
+Join: ro
+Join: kijql
+Join: kijql
+Join: ro
+Join: kijql
+Join: qijkr
+Jim received delta S8c <- PGt o
+Jim received delta S8c <- 92B o
+Jim received delta S8c <- TK1 o
+Jim received delta S8c <- TK1 r
+Jim received delta PGt <- Fo9 gro
+Join: gro
+
+PGt
+Before: aboqkijl
+After:  aboqkijrgl
+Jim received delta PGt <- VdK ab
+Join: gro
+Join: gro
+Join: gro
+Join: gro
+Join: gro
+Join: loab
+Join: loab
+Join: loab
+Join: m
+Join: loab
+Join: gro
+Join: loab
+Join: gro
+Join: loab
+Join: loab
+Join: loab
+Join: loab
+Join: loab
+Join: abo
+Join: loab
+Join: loab
+Join: kqijg
+Join: loab
+Join: kqijg
+Join: qijkr
+Join: kqijgr
+Join: ijqkab
+Join: kqijgr
+Join: kqijgr
+Join: ijqkab
+Join: qijkr
+Join: kqijgr
+Join: qijkr
+Join: kqijgr
+Join: ijqkab
+
+>> push 6 TK1 n
+Join: n
+
+TK1
+Before: oqkijrmlab
+After:  oqkijrmlabn
+
+>> push 2 ums e
+Join: e
+
+ums
+Before: aboqkijr
+After:  aboqkijre
+Jim received delta 92B <- VdK loabgr
+Join: loabgr
+
+92B
+Before: aboqkijrl
+After:  aboqkijrgl
+Jim received delta TK1 <- 92B loab
+Jim received delta Fo9 <- TK1 m
+Join: m
+
+Fo9
+Before: aboqkijrg
+After:  aboqkijrmg
+Jim received delta Fo9 <- 92B loab
+Join: loab
+
+Fo9
+Before: aboqkijrmg
+After:  aboqkijrmgl
+Jim received delta Fo9 <- TK1 loab
+Jim received delta ums <- TK1 m
+Join: m
+
+ums
+Before: aboqkijre
+After:  aboqkijrem
+Jim received delta ums <- 92B loab
+Join: loab
+
+ums
+Before: aboqkijrem
+After:  aboqkijreml
+Jim received delta ums <- TK1 loab
+Jim received delta MBt <- VdK ijkqab
+Jim received delta MBt <- TK1 m
+Join: m
+
+MBt
+Before: aboqkijrg
+After:  aboqkijrmg
+Jim received delta MBt <- 92B loab
+Join: loab
+
+MBt
+Before: aboqkijrmg
+After:  aboqkijrmgl
+Jim received delta MBt <- Fo9 abo
+Jim received delta MBt <- VdK loabgr
+Jim received delta MBt <- TK1 loab
+Jim received delta S8c <- TK1 m
+Join: m
+
+S8c
+Before: abqkijrglo
+After:  abqkijrmglo
+Jim received delta S8c <- 92B loab
+Jim received delta S8c <- TK1 loab
+Jim received delta PGt <- VdK gro
+Join: n
+Join: n
+Join: n
+Join: loabgr
+Join: loabgr
+Join: m
+Join: m
+Join: m
+Join: loab
+Join: m
+Join: loab
+Join: e
+Join: m
+Join: loab
+Jim received delta VdK <- Fo9 m
+Join: m
+
+VdK
+Before: aboqkijrgl
+After:  aboqkijrmgl
+Jim received delta ums <- 92B loabgr
+Join: loabgr
+
+ums
+Before: aboqkijreml
+After:  aboqkijremgl
+Jim received delta ums <- TK1 n
+Join: n
+
+ums
+Before: aboqkijremgl
+After:  abnoqkijremgl
+Join: m
+Jim received delta MBt <- 92B loabgr
+Jim received delta MBt <- TK1 n
+Join: n
+
+MBt
+Before: aboqkijrmgl
+After:  abnoqkijrmgl
+Jim received delta MBt <- Fo9 m
+Join: n
+Join: m
+Join: n
+Join: m
+Join: loab
+Join: n
+Join: n
+Jim received delta MBt <- Fo9 loab
+Join: m
+Jim received delta S8c <- TK1 n
+Join: n
+
+S8c
+Before: abqkijrmglo
+After:  abnqkijrmglo
+Jim received delta S8c <- Fo9 m
+Join: m
+Join: n
+Join: m
+Join: n
+Join: m
+Join: n
+Join: m
+Join: n
+Join: m
+Join: n
+Join: n
+Jim received delta S8c <- Fo9 loab
+Jim received delta PGt <- Fo9 m
+Join: m
+
+PGt
+Before: aboqkijrgl
+After:  aboqkijrmgl
+Join: m
+Join: m
+Join: loabgr
+Join: n
+
+>> push 3 Fo9 h
+Join: h
+
+Fo9
+Before: aboqkijrmgl
+After:  aboqkijrmglh
+Join: h
+Jim received delta MBt <- VdK m
+Jim received delta VdK <- Fo9 h
+Join: h
+
+VdK
+Before: aboqkijrmgl
+After:  aboqkijrmglh
+Jim received delta PGt <- VdK m
+
+>> push 1 umQ c
+Join: c
+
+umQ
+Before: oqkijglab
+After:  oqkijglabc
+Jim received delta S8c <- PGt gro
+Join: m
+Join: m
+Join: m
+Join: h
+Join: h
+Join: h
+Join: h
+Join: h
+Jim received delta S8c <- umQ o
+Jim received delta ums <- umQ o
+Jim received delta ums <- umQ loabkqijg
+Join: c
+Join: c
+Join: c
+Jim received delta MBt <- umQ loabkqijg
+Jim received delta MBt <- ums em
+Join: em
+
+MBt
+Before: abnoqkijrmgl
+After:  abnoqkijremgl
+Jim received delta MBt <- ums loab
+Jim received delta MBt <- ums loabgrn
+Jim received delta umQ <- PGt gro
+Join: gro
+
+umQ
+Before: oqkijglabc
+After:  oqkijrglabc
+Jim received delta PGt <- S8c kqijg
+Jim received delta PGt <- MBt qijkrg
+Jim received delta PGt <- S8c qijkr
+Jim received delta PGt <- MBt m
+Jim received delta PGt <- MBt n
+Join: n
+
+PGt
+Before: aboqkijrmgl
+After:  abnoqkijrmgl
+Jim received delta PGt <- S8c m
+Jim received delta PGt <- S8c n
+Jim received delta 92B <- S8c kqijg
+Jim received delta 92B <- PGt gro
+Jim received delta 92B <- MBt kqijgr
+Jim received delta 92B <- S8c kijql
+Jim received delta 92B <- MBt m
+Join: m
+
+92B
+Before: aboqkijrgl
+After:  aboqkijrmgl
+Jim received delta 92B <- MBt n
+Join: n
+
+92B
+Before: aboqkijrmgl
+After:  abnoqkijrmgl
+Jim received delta 92B <- S8c m
+Jim received delta 92B <- S8c n
+Join: em
+Join: em
+Join: em
+Join: em
+Join: em
+Join: gro
+
+>> push 7 MBt p
+Join: p
+
+MBt
+Before: abnoqkijremgl
+After:  abnoqkijremglp
+Jim received delta ums <- S8c kqijg
+Jim received delta ums <- S8c kijqlro
+Jim received delta ums <- S8c m
+Jim received delta ums <- S8c n
+Jim received delta VdK <- S8c kqijg
+Jim received delta VdK <- PGt gro
+Jim received delta VdK <- MBt qijkrg
+Jim received delta VdK <- S8c kijqlro
+Jim received delta VdK <- S8c m
+Jim received delta VdK <- S8c n
+Join: n
+
+VdK
+Before: aboqkijrmglh
+After:  abnoqkijrmglh
+Jim received delta MBt <- S8c abkqijg
+Jim received delta MBt <- S8c kijqlr
+Jim received delta MBt <- S8c m
+Jim received delta MBt <- S8c n
+Jim received delta Fo9 <- umQ o
+Jim received delta Fo9 <- umQ loab
+Join: n
+Join: n
+Join: n
+Join: n
+Join: p
+Join: p
+Join: p
+Join: p
+Join: p
+Jim received delta umQ <- MBt qijkrgab
+Jim received delta umQ <- S8c kijqlr
+Jim received delta umQ <- MBt m
+Join: m
+
+umQ
+Before: oqkijrglabc
+After:  oqkijrmglabc
+Jim received delta umQ <- S8c m
+Jim received delta umQ <- MBt loabn
+Join: loabn
+
+umQ
+Before: oqkijrmglabc
+After:  oqkijrmglabnc
+Jim received delta umQ <- S8c n
+Jim received delta Fo9 <- MBt ijqkab
+Jim received delta Fo9 <- MBt n
+Join: n
+
+Fo9
+Before: aboqkijrmglh
+After:  abnoqkijrmglh
+Jim received delta TK1 <- PGt gro
+Join: gro
+
+TK1
+Before: oqkijrmlabn
+After:  oqkijrmglabn
+Jim received delta TK1 <- MBt kqijgrab
+Join: n
+Jim received delta PGt <- Fo9 h
+Join: h
+
+PGt
+Before: abnoqkijrmgl
+After:  abnoqkijrmglh
+Join: loabn
+Jim received delta MBt <- Fo9 h
+Join: h
+
+MBt
+Before: abnoqkijremglp
+After:  abnoqkijremglph
+Join: n
+Jim received delta S8c <- Fo9 h
+Join: h
+
+S8c
+Before: abnqkijrmglo
+After:  abnqkijrmglho
+Join: h
+Jim received delta PGt <- MBt em
+Join: em
+
+PGt
+Before: abnoqkijrmglh
+After:  abnoqkijremglh
+Jim received delta 92B <- MBt em
+Join: em
+
+92B
+Before: abnoqkijrmgl
+After:  abnoqkijremgl
+Jim received delta umQ <- MBt em
+Join: em
+
+umQ
+Before: oqkijrmglabnc
+After:  oqkijremglabnc
+Jim received delta Fo9 <- MBt em
+Join: em
+
+Fo9
+Before: abnoqkijrmglh
+After:  abnoqkijremglh
+Jim received delta TK1 <- MBt em
+Join: em
+
+TK1
+Before: oqkijrmglabn
+After:  oqkijremglabn
+Jim received delta PGt <- VdK h
+Jim received delta MBt <- VdK h
+Join: h
+Join: h
+Join: h
+Join: h
+Join: h
+Join: h
+Join: h
+Jim received delta MBt <- umQ c
+Join: c
+
+MBt
+Before: abnoqkijremglph
+After:  abncoqkijremglph
+Jim received delta MBt <- umQ gro
+Jim received delta ums <- umQ c
+Join: c
+
+ums
+Before: abnoqkijremgl
+After:  abncoqkijremgl
+Join: em
+Join: h
+Join: em
+Join: h
+Join: em
+Join: h
+Join: em
+Join: em
+Join: em
+Join: em
+Jim received delta Fo9 <- umQ c
+Join: c
+
+Fo9
+Before: abnoqkijremglh
+After:  abncoqkijremglh
+Jim received delta Fo9 <- umQ loabn
+Jim received delta S8c <- PGt m
+Jim received delta PGt <- MBt p
+Join: p
+
+PGt
+Before: abnoqkijremglh
+After:  abnoqkijremglph
+Jim received delta MBt <- S8c h
+Jim received delta umQ <- MBt p
+Join: p
+
+umQ
+Before: oqkijremglabnc
+After:  oqkijremglpabnc
+Jim received delta umQ <- PGt m
+Join: c
+Join: c
+Join: c
+Jim received delta 92B <- PGt m
+Jim received delta 92B <- MBt p
+Join: p
+
+92B
+Before: abnoqkijremgl
+After:  abnoqkijremglp
+Jim received delta 92B <- PGt n
+Jim received delta VdK <- Fo9 n
+Jim received delta VdK <- PGt n
+Jim received delta PGt <- Fo9 n
+Join: c
+Join: c
+Jim received delta umQ <- PGt n
+Jim received delta ums <- S8c h
+Join: h
+
+ums
+Before: abncoqkijremgl
+After:  abncoqkijremglh
+Join: p
+Join: p
+Join: p
+Jim received delta Fo9 <- MBt p
+Join: p
+
+Fo9
+Before: abncoqkijremglh
+After:  abncoqkijremglph
+Jim received delta VdK <- PGt em
+Join: em
+
+VdK
+Before: abnoqkijrmglh
+After:  abnoqkijremglh
+Jim received delta VdK <- Fo9 em
+Jim received delta VdK <- Fo9 c
+Join: c
+
+VdK
+Before: abnoqkijremglh
+After:  abncoqkijremglh
+Jim received delta TK1 <- MBt p
+Join: p
+
+TK1
+Before: oqkijremglabn
+After:  oqkijremglpabn
+Jim received delta PGt <- MBt h
+Jim received delta PGt <- S8c h
+Jim received delta PGt <- Fo9 em
+Jim received delta PGt <- Fo9 c
+Join: c
+
+PGt
+Before: abnoqkijremglph
+After:  abncoqkijremglph
+Join: p
+Join: p
+Join: c
+Jim received delta 92B <- MBt h
+Join: h
+
+92B
+Before: abnoqkijremglp
+After:  abnoqkijremglph
+Jim received delta 92B <- S8c h
+Jim received delta 92B <- PGt h
+Jim received delta 92B <- MBt c
+Join: c
+
+92B
+Before: abnoqkijremglph
+After:  abncoqkijremglph
+Jim received delta 92B <- PGt em
+Jim received delta 92B <- PGt p
+Jim received delta Fo9 <- 92B n
+Jim received delta Fo9 <- MBt c
+Jim received delta Fo9 <- 92B em
+Jim received delta ums <- 92B p
+Join: p
+
+ums
+Before: abncoqkijremglh
+After:  abncoqkijremglph
+Jim received delta Fo9 <- 92B p
+Jim received delta TK1 <- MBt h
+Join: h
+
+TK1
+Before: oqkijremglpabn
+After:  oqkijremglphabn
+Jim received delta TK1 <- PGt h
+Jim received delta TK1 <- MBt c
+Join: c
+
+TK1
+Before: oqkijremglphabn
+After:  oqkijremglphabnc
+Jim received delta TK1 <- PGt em
+Jim received delta TK1 <- PGt p
+Jim received delta TK1 <- PGt c
+Jim received delta umQ <- MBt h
+Join: h
+
+umQ
+Before: oqkijremglpabnc
+After:  oqkijremglphabnc
+Jim received delta umQ <- PGt h
+Jim received delta umQ <- PGt em
+Jim received delta umQ <- PGt p
+
+>> push 1 umQ d
+Join: d
+
+umQ
+Before: oqkijremglphabnc
+After:  oqkijremglphabncd
+
+>> push 2 ums f
+Join: f
+
+ums
+Before: abncoqkijremglph
+After:  abncoqkijremglphf
+Join: c
+Join: em
+Join: p
+Join: d
+Jim received delta S8c <- umQ c
+Join: c
+
+S8c
+Before: abnqkijrmglho
+After:  abncqkijrmglho
+Jim received delta S8c <- umQ em
+Join: em
+
+S8c
+Before: abncqkijrmglho
+After:  abncqkijremglho
+Jim received delta S8c <- umQ p
+Join: p
+
+S8c
+Before: abncqkijremglho
+After:  abncqkijremglpho
+Jim received delta S8c <- umQ d
+Join: d
+
+S8c
+Before: abncqkijremglpho
+After:  abncdqkijremglpho
+Join: em
+Join: p
+Jim received delta S8c <- PGt em
+Jim received delta S8c <- PGt p
+Join: p
+Jim received delta VdK <- MBt p
+Join: p
+
+VdK
+Before: abncoqkijremglh
+After:  abncoqkijremglph
+Join: d
+Join: d
+Join: d
+Join: d
+Join: d
+Jim received delta VdK <- umQ d
+Join: d
+
+VdK
+Before: abncoqkijremglph
+After:  abncdoqkijremglph
+Jim received delta Fo9 <- umQ d
+Join: d
+
+Fo9
+Before: abncoqkijremglph
+After:  abncdoqkijremglph
+Jim received delta ums <- umQ d
+Join: d
+
+ums
+Before: abncoqkijremglphf
+After:  abncdoqkijremglphf
+Jim received delta TK1 <- umQ d
+Join: d
+
+TK1
+Before: oqkijremglphabnc
+After:  oqkijremglphabncd
+Jim received delta MBt <- umQ d
+Join: d
+
+MBt
+Before: abncoqkijremglph
+After:  abncdoqkijremglph
+*2
+Join: f
+Join: d
+Join: f
+Join: f
+Join: f
+Join: d
+Join: f
+Join: f
+Jim received delta PGt <- ums f
+Join: f
+
+PGt
+Before: abncoqkijremglph
+After:  abncoqkijremglphf
+Jim received delta PGt <- ums d
+Join: d
+
+PGt
+Before: abncoqkijremglphf
+After:  abncdoqkijremglphf
+Jim received delta VdK <- ums f
+Join: f
+
+VdK
+Before: abncdoqkijremglph
+After:  abncdoqkijremglphf
+*5
+Jim received delta TK1 <- ums f
+Join: f
+
+TK1
+Before: oqkijremglphabncd
+After:  oqkijremglphfabncd
+Jim received delta 92B <- ums f
+Join: f
+
+92B
+Before: abncoqkijremglph
+After:  abncoqkijremglphf
+Jim received delta 92B <- ums d
+Join: d
+
+92B
+Before: abncoqkijremglphf
+After:  abncdoqkijremglphf
+Jim received delta umQ <- ums f
+Join: f
+
+umQ
+Before: oqkijremglphabncd
+After:  oqkijremglphfabncd
+Jim received delta MBt <- ums f
+Join: f
+
+MBt
+Before: abncdoqkijremglph
+After:  abncdoqkijremglphf
+*4
+*6
+*8
+*1
+*7
+Join: f
+Join: f
+Jim received delta Fo9 <- umQ f
+Join: f
+
+Fo9
+Before: abncdoqkijremglph
+After:  abncdoqkijremglphf
+Jim received delta S8c <- umQ f
+Join: f
+
+S8c
+Before: abncdqkijremglpho
+After:  abncdqkijremglphfo
+*3
+*0
+
+Done
+Sleep for 1s
+Value  0 S8c abncdqkijremglphfo
+Value  1 umQ oqkijremglphfabncd
+Value  2 ums abncdoqkijremglphf
+Value  3 Fo9 abncdoqkijremglphf
+Value  4 VdK abncdoqkijremglphf
+Value  5 PGt abncdoqkijremglphf
+Value  6 TK1 oqkijremglphfabncd
+Value  7 MBt abncdoqkijremglphf
+Value  8 92B abncdoqkijremglphf
+  [31m  1) handles random changes[0m
+
+
+[92m [0m[32m 1 passing[0m[90m (17s)[0m
+[31m  1 failing[0m
+
+[0m  1) collaboration with random changes
+       handles random changes:
+
+      [31mAssertionError: expected [ Array(18) ] to deeply equal [ Array(18) ][0m
+      [32m+ expected[0m [31m- actual[0m
+
+       [
+      [31m-  "o"[0m
+      [32m+  "a"[0m
+      [32m+  "b"[0m
+      [32m+  "n"[0m
+      [32m+  "c"[0m
+      [32m+  "d"[0m
+         "q"
+         "k"
+         "i"
+         "j"
+--
+         "l"
+         "p"
+         "h"
+         "f"
+      [31m-  "a"[0m
+      [31m-  "b"[0m
+      [31m-  "n"[0m
+      [31m-  "c"[0m
+      [31m-  "d"[0m
+      [32m+  "o"[0m
+       ]
+      [0m[90m
+      at Context.it (test/collaboration-random.spec.js:169:35)
+[0m
+
+
+Command failed: mocha --timeout 5000 --ui bdd --colors --exit test/collaboration-random.spec.js
+null
+null
+Error: Command failed: mocha --timeout 5000 --ui bdd --colors --exit test/collaboration-random.spec.js
+null
+null
+    at makeError (/home/test1/peer-pad-load-test/peer-base/node_modules/execa/index.js:174:9)
+    at Promise.all.then.arr (/home/test1/peer-pad-load-test/peer-base/node_modules/execa/index.js:278:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
