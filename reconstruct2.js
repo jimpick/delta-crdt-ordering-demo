@@ -158,8 +158,11 @@ console.log('06 TK1', r06TK1.value().join(''))
 r03Fo9.apply(r07MBt.state()) // o
 console.log('03 Fo9', r03Fo9.value().join(''))
 
-process.exit(0)
 // ums
+r02ums.apply(r0892B_delta2) // r (via 92b)
+console.log('02 ums', r02ums.value().join(''))
+
+process.exit(0)
 // umQ
 // S8c
 // PGt
