@@ -26,6 +26,7 @@ console.log('07 MBt', r07MBt.value().join(''))
 
 const r07MBt_delta2 = r07MBt.push('i')
 console.log('07 MBt', r07MBt.value().join(''))
+const r07MBt_hi = r07MBt.state()
 
 r07MBt.apply(r14rjU.state()) // o
 console.log('07 MBt', r07MBt.value().join(''))
@@ -319,6 +320,7 @@ console.log('09 bJa', r09bJa.value().join(''))
 
 r05PGt.apply(r07MBt_hio) // hio
 console.log('05 PGt', r05PGt.value().join(''))
+const r05PGt_hilopbdjkkfgcdmge = r05PGt.state()
 
 r05PGt.apply(r09bJa.state()) // hilojpjkkfgmge
 console.log('05 PGt', r05PGt.value().join(''))
@@ -328,6 +330,7 @@ const r05PGt_hilojpbdjkkfgcdmge = r05PGt.state()
 
 const r01umQ_delta2 = r01umQ.push('c')
 console.log('01 umQ', r01umQ.value().join(''))
+const r01umQ_lopbjkkfgmec = r01umQ.state()
 
 // >> push 10 UED l
 
@@ -369,6 +372,73 @@ r02ums.apply(r05PGt_hilojpbdjkkfgcdmge) // hilojpbdjkkfgcdmge
 console.log('02 ums', r02ums.value().join(''))
 
 // >> push 5 PGt h
+
+const r05PGt_delta3 = r05PGt.push('h')
+console.log('05 PGt', r05PGt.value().join(''))
+
+r07MBt.apply(r05PGt_hilopbdjkkfgcdmge) // hilopbdjkkfgcdmge
+console.log('07 MBt', r07MBt.value().join(''))
+
+// VdK
+// 01 umQ lopbjkkfgmec
+r04VdK.apply(r01umQ_lopbjkkfgmec) // lopbjkkfgmec
+// Weird, two character diff
+// NO: r04VdK.apply(r0892B.state()) // i 
+// const r07MBt_hi = r07MBt.state()
+// NO: r04VdK.apply(r07MBt_hi) // hi 
+// NO: r04VdK.apply(r07MBt_delta2)
+// NO: r04VdK.apply(r0892B_delta1)
+console.log('04 VdK', r04VdK.value().join(''))
+
+// PGt
+// r05PGt.apply(r.state()) // 
+// console.log('05 PGt', r05PGt.value().join(''))
+
+// VdK
+// r04VdK.apply(r.state()) // 
+// console.log('04 VdK', r04VdK.value().join(''))
+
+// VdK
+// r04VdK.apply(r.state()) // 
+// console.log('04 VdK', r04VdK.value().join(''))
+
+// umQ
+// r01umQ.apply(r.state()) // 
+// console.log('01 umQ', r01umQ.value().join(''))
+
+// umQ
+// r01umQ.apply(r.state()) // 
+// console.log('01 umQ', r01umQ.value().join(''))
+
+// Fo9
+// r03Fo9.apply(r.state()) // 
+// console.log('03 Fo9', r03Fo9.value().join(''))
+
+// UED
+// r10UED.apply(r.state()) // 
+// console.log('10 UED', r10UED.value().join(''))
+
+// UED
+// r10UED.apply(r.state()) // 
+// console.log('10 UED', r10UED.value().join(''))
+
+// ums
+// r02ums.apply(r) // 
+// console.log('02 ums', r02ums.value().join(''))
+
+// 92B
+// r0892B.apply(r) // 
+// console.log('08 92B', r0892B.value().join(''))
+
+// 92B
+// r0892B.apply(r) // 
+// console.log('08 92B', r0892B.value().join(''))
+
+// PGt
+// r05PGt.apply(r.state()) // 
+// console.log('05 PGt', r05PGt.value().join(''))
+
+
 // >> push 9 bJa l
 // >> push 4 VdK f
 // >> push 13 Uik o
