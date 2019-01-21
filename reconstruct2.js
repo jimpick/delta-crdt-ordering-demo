@@ -113,10 +113,12 @@ console.log('06 TK1', r06TK1.value().join(''))
 // >> push 0 S8c b
 const r00S8c_delta2 = r00S8c.push('b')
 console.log('00 S8c', r00S8c.value().join(''))
+const r00S8c_ab = r00S8c.state()
 
 // >> push 3 Fo9 g
 const r03Fo9_delta1 = r03Fo9.push('g')
 console.log('03 Fo9', r03Fo9.value().join(''))
+const r03Fo9_qkijq = r03Fo9.state()
 
 // >> push 8 92B r
 const r0892B_delta2 = r0892B.push('r')
@@ -162,16 +164,73 @@ console.log('03 Fo9', r03Fo9.value().join(''))
 r02ums.apply(r0892B_delta2) // r (via 92b)
 console.log('02 ums', r02ums.value().join(''))
 
-process.exit(0)
 // umQ
-// S8c
-// PGt
-// PGt
+r01umQ.apply(r07MBt.state()) // o
+console.log('01 umQ', r01umQ.value().join(''))
 
+// S8c
+r00S8c.apply(r03Fo9_qkijq) // qkijg
+console.log('00 S8c', r00S8c.value().join(''))
+
+// PGt
+r05PGt.apply(r07MBt.state()) // o
+console.log('05 PGt', r05PGt.value().join(''))
+
+// PGt
+// 00 S8c ab
+r05PGt.apply(r00S8c_ab) // ab
+console.log('05 PGt', r05PGt.value().join(''))
 
 // >> push 6 TK1 m
 const r06TK1_delta1 = r06TK1.push('m')
 console.log('06 TK1', r06TK1.value().join(''))
+
+// VdK
+// VdK <- PGt loab
+r04VdK.apply(r05PGt_delta2) // l (via PGt)
+r04VdK.apply(r07MBt_delta1) // o (via PGt)
+r04VdK.apply(r00S8c_delta1) // a (via PGt)
+r04VdK.apply(r00S8c_delta2) // b (via PGt)
+console.log('04 VdK', r04VdK.value().join(''))
+
+// VdK
+// VdK <- Fo9 gro
+r04VdK.apply(r03Fo9_delta1) // g (via Fo9)
+r04VdK.apply(r0892B_delta2) // r (via Fo9)
+r04VdK.apply(r07MBt_delta1) // o (via Fo9)
+console.log('04 VdK', r04VdK.value().join(''))
+
+// 92B
+// 92B <- PGt loab
+r0892B.apply(r05PGt_delta2) // l (via PGt)
+r0892B.apply(r07MBt_delta1) // o (via PGt)
+r0892B.apply(r00S8c_delta1) // a (via PGt)
+r0892B.apply(r00S8c_delta2) // b (via PGt)
+console.log('08 92B', r0892B.value().join(''))
+
+// TK1
+// TK1 <- PGt loab
+// r06TK1.apply(r05PGt_delta2) // l (via PGt)
+// r06TK1.apply(r00S8c_delta1) // a (via PGt)
+// r06TK1.apply(r07MBt_delta1) // o (via PGt)
+// r06TK1.apply(r00S8c_delta2) // b (via PGt)
+r06TK1.apply(r05PGt.state()) // aboqkijl
+console.log('06 TK1', r06TK1.value().join(''))
+// Can't get it to match 'oqkijrmlab'
+
+process.exit(0)
+// Fo9
+// ums
+// umQ
+// umQ
+// MBt
+// MBt
+// MBt
+// S8c
+// S8c
+// S8c
+// PGt
+
 
 // >> push 6 TK1 n
 const r06TK1_delta2 = r06TK1.push('n')
