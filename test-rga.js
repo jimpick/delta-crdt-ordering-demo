@@ -14,9 +14,9 @@ const r05PGt = RGA(crdtId('QmVPQLtqBwFga3HPRCVZT6ygk9qtXi8aRqTp72i6UTXPGt'))
 const r06TK1 = RGA(crdtId('QmZrpe3pyKyNmjucMGgEsBAjRcGkcdgb3avsqYHTFndTK1'))
 const r07MBt = RGA(crdtId('QmV8Cu1WNqBw6jHkBun8SHyuv8gHhpiHvtHww6EBkBWMBt'))
 
-const before = 'k8ckQJOSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQkNNVDRnOD2hY9RBkMc6QJOSwKxrZ0hFQkVmeUo2RT2SrGtnSEVCRWZ5SjZFPaxrZ0xFQkNNVDRnOD2SrGtnTEVCQ01UNGc4PcA='
-const diff = 'k8cRQJGSrGtnUEVCQ01UNGc4PaFk1EGQxzpAk5LArGtnTEVCQ01UNGc4PZKsa2dMRUJDTVQ0Zzg9rGtnUEVCQ01UNGc4PZKsa2dQRUJDTVQ0Zzg9wA=='
-const after = 'k8c0QJSSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQkNNVDRnOD2hY5Ksa2dQRUJDTVQ0Zzg9oWTUQZDHVUCUksCsa2dIRUJFZnlKNkU9kqxrZ0hFQkVmeUo2RT2sa2dMRUJDTVQ0Zzg9kqxrZ0xFQkNNVDRnOD2sa2dQRUJDTVQ0Zzg9kqxrZ1BFQkNNVDRnOD3A'
+const before = 'k8dEQJWSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQkNNVDRnOD2hY5Ksa2dQRUJDTVQ0Zzg9oWSSrGtnTEVCUEhZYTJ3PaFt1EGQx3BAlZLArGtnSEVCRWZ5SjZFPZKsa2dIRUJFZnlKNkU9rGtnTEVCUEhZYTJ3PZKsa2dMRUJDTVQ0Zzg9rGtnUEVCQ01UNGc4PZKsa2dQRUJDTVQ0Zzg9wJKsa2dMRUJQSFlhMnc9rGtnTEVCQ01UNGc4PQ=='
+const diff = 'k8dEQJWSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQlBIWWEydz2hbZKsa2dMRUJDTVQ0Zzg9oWOSrGtnVEVCUEhZYTJ3PaFu1EGQx3BAlZLArGtnSEVCRWZ5SjZFPZKsa2dIRUJFZnlKNkU9rGtnTEVCUEhZYTJ3PZKsa2dMRUJQSFlhMnc9rGtnTEVCQ01UNGc4PZKsa2dMRUJDTVQ0Zzg9rGtnVEVCUEhZYTJ3PZKsa2dURUJQSFlhMnc9wA=='
+const after = 'k8dUQJaSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQkNNVDRnOD2hY5Ksa2dQRUJDTVQ0Zzg9oWSSrGtnTEVCUEhZYTJ3PaFtkqxrZ1RFQlBIWWEydz2hbtRBkMeLQJaSwKxrZ0hFQkVmeUo2RT2SrGtnSEVCRWZ5SjZFPaxrZ0xFQlBIWWEydz2SrGtnTEVCQ01UNGc4PaxrZ1RFQlBIWWEydz2SrGtnUEVCQ01UNGc4PcCSrGtnTEVCUEhZYTJ3PaxrZ0xFQkNNVDRnOD2SrGtnVEVCUEhZYTJ3PaxrZ1BFQkNNVDRnOD0='
 
 const beforeObj = decode(Buffer.from(before, 'base64'))
 const diffObj = decode(Buffer.from(diff, 'base64'))
@@ -25,8 +25,9 @@ const afterObj = decode(Buffer.from(after, 'base64'))
 // console.log(diffObj)
 console.log(afterObj)
 
-r01umQ.apply(beforeObj)
-console.log('Before Value:', r01umQ.value().join(''))
-r01umQ.apply(diffObj)
-console.log('After Value:', r01umQ.value().join(''))
-console.log('After State:\n', r01umQ.state())
+const target = r04VdK
+target.apply(beforeObj)
+console.log('Before Value:', target.value().join(''))
+target.apply(diffObj)
+console.log('After Value:', target.value().join(''))
+console.log('After State:\n', target.state())

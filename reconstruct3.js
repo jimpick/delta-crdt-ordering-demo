@@ -44,6 +44,7 @@ console.log('03 Fo9', r03Fo9.value().join(''))
 // >> push 1 umQ c
 const r01umQ_delta1 = r01umQ.push('c')
 console.log('01 umQ', r01umQ.value().join(''))
+const r01umQ_kc = r01umQ.state()
 
 // >> push 6 TK1 m
 const r06TK1_delta1 = r06TK1.push('m')
@@ -53,15 +54,105 @@ console.log('06 TK1', r06TK1.value().join(''))
 const r01umQ_delta2 = r01umQ.push('d')
 console.log('01 umQ', r01umQ.value().join(''))
 
-process.exit(0)
+// MBt
+r07MBt.apply(r01umQ_delta1) // c
+console.log('07 MBt', r07MBt.value().join(''))
+
+// PGt
+r05PGt.apply(r01umQ_delta1) // c
+console.log('05 PGt', r05PGt.value().join(''))
+
+// Fo9
+r03Fo9.apply(r01umQ_delta1) // c
+console.log('03 Fo9', r03Fo9.value().join(''))
+
+// S8c
+r00S8c.apply(r01umQ_delta1) // c
+console.log('00 S8c', r00S8c.value().join(''))
+
+// TK1
+r06TK1.apply(r01umQ_delta1) // c
+console.log('06 TK1', r06TK1.value().join(''))
+
+// MBt
+r07MBt.apply(r06TK1_delta1) // m
+console.log('07 MBt', r07MBt.value().join(''))
+
+// PGt
+r05PGt.apply(r06TK1_delta1) // m
+console.log('05 PGt', r05PGt.value().join(''))
+
+// Fo9
+r03Fo9.apply(r06TK1_delta1) // m
+console.log('03 Fo9', r03Fo9.value().join(''))
+
+// Fo9
+r03Fo9.apply(r01umQ_delta2) // d
+console.log('03 Fo9', r03Fo9.value().join(''))
+
+// S8c
+r00S8c.apply(r06TK1_delta1) // m
+console.log('00 S8c', r00S8c.value().join(''))
+
+// umQ
+r01umQ.apply(r06TK1_delta1) // m
+console.log('01 umQ', r01umQ.value().join(''))
 
 // >> push 6 TK1 n
 const r06TK1_delta2 = r06TK1.push('n')
 console.log('06 TK1', r06TK1.value().join(''))
+const r06Tk1_kmcn = r06TK1.state()
+
+// MBt
+r07MBt.apply(r01umQ_delta2) // d
+console.log('07 MBt', r07MBt.value().join(''))
+
+// S8c
+r00S8c.apply(r01umQ_delta2) // d
+console.log('00 S8c', r00S8c.value().join(''))
+
+// PGt
+r05PGt.apply(r01umQ_delta2) // d
+console.log('05 PGt', r05PGt.value().join(''))
 
 // >> push 3 Fo9 h
 const r03Fo9_delta2 = r03Fo9.push('h')
 console.log('03 Fo9', r03Fo9.value().join(''))
+
+// TK1
+r06TK1.apply(r01umQ_delta2) // d
+console.log('06 TK1', r06TK1.value().join(''))
+
+// VdK
+r04VdK.apply(r01umQ_kc) // kc
+console.log('04 VdK', r04VdK.value().join(''))
+
+// VdK
+r04VdK.apply(r01umQ_delta2) // d
+console.log('04 VdK', r04VdK.value().join(''))
+
+// umQ
+r01umQ.apply(r06TK1_delta2) // n
+console.log('01 umQ', r01umQ.value().join(''))
+
+// S8c
+r00S8c.apply(r06TK1_delta2) // n
+console.log('00 S8c', r00S8c.value().join(''))
+
+// PGt
+r05PGt.apply(r06TK1_delta2) // n
+console.log('05 PGt', r05PGt.value().join(''))
+
+// VdK
+r04VdK.apply(r06TK1_delta1) // m (via umQ)
+console.log('04 VdK', r04VdK.value().join(''))
+
+// VdK
+r04VdK.apply(r06Tk1_kmcn) // kmcn
+console.log('04 VdK', r04VdK.value().join(''))
+
+process.exit(0)
+
 
 // >> push 0 S8c a
 const r00S8c_delta1 = r00S8c.push('a')
