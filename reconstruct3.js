@@ -1,7 +1,7 @@
 const CRDTs = require('delta-crdts')
 const RGA = CRDTs('rga')
 const b58Decode = require('bs58').decode
-const { decode } = require('delta-crdts-msgpack-codec')
+const { decode, encode } = require('delta-crdts-msgpack-codec')
 
 const crdtId = id => b58Decode(id).slice(-4)
 
@@ -305,6 +305,9 @@ indieRga.apply(r02ums_delta1) // e
 indieRga.apply(r05PGt_delta2) // l
 console.log('Jim indie value:', indieRga.value().join(''))
 // Indie after: gkmcndhlie
+
+console.log('r03Fo9_delta1 "g" base64:\n', encode(r03Fo9_delta1).toString('base64'))
+console.log('r03Fo9_delta2 "h" base64:\n', encode(r03Fo9_delta2).toString('base64'))
 
 const rgaType = CRDTs.type('rga')
 
