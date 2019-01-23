@@ -24,6 +24,28 @@ peers.forEach(name => {
   // console.log(name, eval(name).id, eval(name))
 })
 
+/*
+const abRga = RGA('ab')
+const deltaA = abRga.push('a')
+const stateA = abRga.state()
+const deltaB = abRga.push('b')
+console.log('ab:\n', abRga.state())
+printRgaMap(abRga.state())
+
+console.log('deltaB:\n', deltaB)
+printRgaMap(deltaB)
+
+const ab2Rga = RGA('ab2')
+ab2Rga.apply(stateA)
+console.log('ab2-1:\n', ab2Rga.state())
+printRgaMap(ab2Rga.state())
+ab2Rga.apply(deltaB)
+console.log('ab2-2:\n', ab2Rga.state())
+printRgaMap(ab2Rga.state())
+
+process.exit(0)
+*/
+
 const before = `
 k8d0QJiSwMCSrGtnSEVCRWZ5SjZFPaFrkqxrZ0xFQlBIWWEydz2hbZKsa2dMRUJDTVQ0Zzg9oWOSrGtnVEVCUEhZYTJ3PaFukqxrZ1BFQkNNVDRnOD2hZJKsa2dIRUJEMGtCNW89oWWSrGtnYkVCQ0VzK1RvPaFp1EGQx8FAmJLArGtnSEVCRWZ5SjZFPZKsa2dIRUJFZnlKNkU9rGtnTEVCUEhZYTJ3PZKsa2dMRUJQSFlhMnc9rGtnTEVCQ01UNGc4PZKsa2dMRUJDTVQ0Zzg9rGtnVEVCUEhZYTJ3PZKsa2dURUJQSFlhMnc9rGtnUEVCQ01UNGc4PZKsa2dQRUJDTVQ0Zzg9rGtnYkVCQ0VzK1RvPZKsa2dIRUJEMGtCNW89wJKsa2diRUJDRXMrVG89rGtnSEVCRDBrQjVvPQ==
 `.replace(/\n/g, '')
@@ -60,30 +82,37 @@ const indieRga = RGA('individual')
 indieRga.apply(r06TK1.state())
 indieRga.apply(r03Fo9_delta1) // g (order does not matter)
 indieRga.apply(r03Fo9_delta2) // h (order does not matter)
+console.log('indie:\n', indieRga.state())
+printRgaMap(indieRga.state())
 console.log('Indie value:', indieRga.value().join(''))
 // Indie after: gkmcndhie
 
 const gRga = RGA('g')
 gRga.apply(r06TK1.state())
 gRga.apply(r03Fo9_delta1)
+console.log('"g":\n', gRga.state())
+printRgaMap(gRga.state())
 console.log('"g" value:', gRga.value().join(''))
 // G after: gkmcndie
-// Note: g at front of string
+// Note: g at front of string (fixed)
 
 const hRga = RGA('h')
-gRga.apply(r06TK1.state())
-gRga.apply(r03Fo9_delta2)
-console.log('"h" value:', gRga.value().join(''))
+hRga.apply(r06TK1.state())
+hRga.apply(r03Fo9_delta2)
+console.log('"h":\n', hRga.state())
+printRgaMap(hRga.state())
+console.log('"h" value:', hRga.value().join(''))
 // H after: gkmcndhie
 // Note: h in same position as indie
 
 const hg = rgaType.join(r03Fo9_delta2, r03Fo9_delta1)
 console.log('hg:\n', hg)
 printRgaMap(hg)
-console.log('hg keys:')
 const hgRga = RGA('hg')
 hgRga.apply(r06TK1.state())
 hgRga.apply(hg)
+console.log('"hg":\n', hgRga.state())
+printRgaMap(hgRga.state())
 console.log('"hg" value:', hgRga.value().join(''))
 // Hg after: kmcndhige
 // Note: g ends up late in string
@@ -95,6 +124,8 @@ try {
   const ghRga = RGA('gh')
   ghRga.apply(r06TK1.state())
   ghRga.apply(gh)
+  console.log('"gh":\n', ghRga.state())
+  printRgaMap(ghRga.state())
   console.log('"gh" value:', ghRga.value().join(''))
 } catch (e) {
   console.log('"gh" exc:', e.message)
@@ -102,31 +133,38 @@ try {
 // Gh after: Exception
 
 function printRgaMap (state) {
-  [...state[2].keys()].forEach(key => {
-    let value1 = state[0].get(key)
-    value1 = value1 ? ` "${value1}"` : (key ? ' ???' : `null`)
-    const key2 = state[2].get(key)
-    let value2 = state[0].get(key2)
-    value2 = value2 ? `"${value2}"` : (key2 ? '???' : `null`)
-    let vertex1
-    if (key) {
-      const [ clock, crdtId ] = decode(Buffer.from(key, 'base64'))
-      const name = crdtIdToName.get(crdtId.toString('hex'))
-      vertex1 = `${key} / ${name}:${clock}`
-    } else {
-      vertex1 = `         null          ` 
-    }
-    let vertex2
-    if (key2) {
-      const [ clock, crdtId ] = decode(Buffer.from(key2, 'base64'))
-      const name = crdtIdToName.get(crdtId.toString('hex'))
-      vertex2 = `${key2} / ${name}:${clock}`
-    } else {
-      vertex2 = `         null          ` 
-    }
-    // console.log(crdtId, clock, crdtId.toString('hex'))
-    console.log(`  [${vertex1}] -> [${vertex2}] ${value1} -> ${value2}`)
-  })
+  let key = null
+  do {
+    printMapKey(state, key)
+    key = state[2].get(key)
+  } while (key)
 }
 
+function printMapKey (state, key) {
+  let value1 = state[0].get(key)
+  value1 = value1 ? ` "${value1}"` : (key ? ' ???' : `null`)
+  const key2 = state[2].get(key)
+  let value2 = state[0].get(key2)
+  value2 = value2 ? `"${value2}"` : (key2 ? '???' : `null`)
+  let vertex1
+  if (key) {
+    const [ clock, crdtId ] = decode(Buffer.from(key, 'base64'))
+    let name = crdtIdToName.get(crdtId.toString('hex'))
+    if (!name) name = crdtId
+    vertex1 = `${key} / ${name}:${clock}`
+  } else {
+    vertex1 = `         null          ` 
+  }
+  let vertex2
+  if (key2) {
+    const [ clock, crdtId ] = decode(Buffer.from(key2, 'base64'))
+    let name = crdtIdToName.get(crdtId.toString('hex'))
+    if (!name) name = crdtId
+    vertex2 = `${key2} / ${name}:${clock}`
+  } else {
+    vertex2 = `         null          ` 
+  }
+  // console.log(crdtId, clock, crdtId.toString('hex'))
+  console.log(`  [${vertex1}] -> [${vertex2}] ${value1} -> ${value2}`)
+}
 
