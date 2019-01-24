@@ -64,6 +64,20 @@ const batchReplica6AB = rgaType.join(deltaB, deltaA)
 replica6.apply(batchReplica6AB)
 console.log('replica6', replica6.value().join(''))
 
+const replica7 = RGA('replica7')
+const batchReplica7EF = rgaType.join(deltaE, deltaF)
+replica7.apply(batchReplica7EF)
+replica7.apply(deltaA)
+replica7.apply(deltaB)
+console.log('replica7', replica7.value().join(''))
+
+const replica8 = RGA('replica8')
+const batchReplica8EF = rgaType.join(deltaF, deltaE)
+replica8.apply(batchReplica8EF)
+replica8.apply(deltaA)
+replica8.apply(deltaB)
+console.log('replica8', replica8.value().join(''))
+
 
 
 
