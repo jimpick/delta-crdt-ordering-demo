@@ -5,22 +5,26 @@ const b58Decode = require('bs58').decode
 
 const crdtId = id => b58Decode(id).slice(-4)
 
-const r00S8c = RGA(crdtId('QmcnJwXLUE27YpyPR7GwRF8h6o1ouR6iBkcTUk9sShXS8c'))
-const r06TK1 = RGA(crdtId('QmZrpe3pyKyNmjucMGgEsBAjRcGkcdgb3avsqYHTFndTK1'))
+const replicaX = RGA('1')
+const replicaY = RGA('2')
 
-const deltaA = r00S8c.push('a')
+const deltaA = replicaY.push('a')
 
-const deltaE = r06TK1.push('E')
-const deltaF = r06TK1.push('F')
+console.log('replicaY 1', replicaY.value().join(''))
 
-r00S8c.apply(deltaE)
-r00S8c.apply(deltaF)
+const deltaE = replicaX.push('E')
+const deltaF = replicaX.push('F')
 
-console.log('r00S8c 1', r00S8c.value().join(''))
+console.log('replicaX 1', replicaX.value().join(''))
 
-const deltaB = r00S8c.push('b')
+replicaY.apply(deltaE)
+replicaY.apply(deltaF)
 
-console.log('r00S8c 2', r00S8c.value().join(''))
+console.log('replicaY 2', replicaY.value().join(''))
+
+const deltaB = replicaY.push('b')
+
+console.log('replicaY 3', replicaY.value().join(''))
 
 const replica1 = RGA('replica1')
 replica1.apply(deltaA)
@@ -79,7 +83,26 @@ replica8.apply(deltaB)
 console.log('replica8', replica8.value().join(''))
 
 
+const replicaA = RGA('3')
+const replicaB = RGA('2')
+const replicaC = RGA('1')
 
+replicaA.push('E')
+replicaA.push('F')
 
+console.log('replicaA 1', replicaA.value().join(''))
 
+replicaB.push('b')
+replicaB.apply(replicaA.state())
+
+console.log('replicaB 1', replicaB.value().join(''))
+
+const deltaC_a = replicaC.push('a')
+console.log('replicaC a', replicaC.value().join(''))
+
+replicaB.apply(deltaC_a)
+console.log('replicaB 2', replicaB.value().join(''))
+
+replicaA.apply(deltaC_a)
+console.log('replicaA 2', replicaA.value().join(''))
 
