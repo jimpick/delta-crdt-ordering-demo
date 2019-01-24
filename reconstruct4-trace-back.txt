@@ -1,0 +1,233 @@
+0 S8c JKLMNaEFbcdGeHIpqrstzABCDklmnofghijuvwxy
+3 Fo9 JKLMNEFbcdGeHIapqrstzABCDklmnofghijuvwxy (Bad?)
+
+Working backwards...
+
+Fo9 - 921 (from PGt)
+--------------------
+
+Before: JKLMNEF   G HI pqrstzABCDklmnofghijuvwxy
+Diff93: ?e?bcdauvwxy
+                     
+                  ?e
+              ?bcd    a                    uvwxy
+
+After:  JKLMNEFbcdGeHIapqrstzABCDklmnofghijuvwxy
+
+Note: Apply was messed up.
+
+
+S8c - 888 (from Mbt)
+--------------------
+
+Before: JKLMNaEFbcdGeHIpqrstzABCD     fghij
+Diff  : klmnouvwxy
+
+                                 klmno     uvwxy
+
+After:  JKLMNaEFbcdGeHIpqrstzABCDklmnofghijuvwxy
+
+Note: Valid?
+
+PGt - 837 (from ums)
+--------------------
+
+Before: JKLMNEFbcdGeHIapqrstzABCD     fghijuvwxy
+Diff86: klmnouvwxy
+
+                                 klmno     uvwxy
+After:  JKLMNEFbcdGeHIapqrstzABCDklmnofghijuvwxy
+
+Note: Not on path. Also wrong?
+
+PGt - 789 (from S8c)
+--------------------
+
+Before: JKLMNEFbcdGeHIapqrstzABCD          uvwxy
+Diff81: fghij
+
+                                      fghij
+                                      
+After:  JKLMNEFbcdGeHIapqrstzABCD     fghijuvwxy
+
+Note: Not on path. Also wrong?
+
+PGt - 780 (from VdK)
+--------------------
+
+Before: JKLMNEFbcdGeHIapqrstzABCD
+Diff80: uvwxy
+
+                                           uvwxy
+                                           
+After:  JKLMNEFbcdGeHIapqrstzABCD          uvwxy
+
+Note: Forwarded to Fo9 - 921
+
+Fo9 - 770 (from VdK)
+--------------------
+
+Before: JKLMNEF   G HI pqrstzABCDklmnofghij
+Diff  : uvwxy
+
+                                           uvwxy
+
+After:  JKLMNEF   G HI pqrstzABCDklmnofghijuvwxy
+
+PGt - 734 (from S8c)
+--------------------
+
+Before: JKLMNEF   G HI pqrstzABCD
+Diff75: ?e?bcda
+
+                  ?e
+              ?bcd    a
+
+After:  JKLMNEFbcdGeHIapqrstzABCD
+
+Note: Messed up. On path.
+
+S8c - 716 (from umQ)
+--------------------
+
+Before: JKLMNaEFbcdGeHIpqrstzABCD
+Diff  : fghij
+
+                                      fghij
+
+After:  JKLMNaEFbcdGeHIpqrstzABCD     fghij
+
+Fo9 - 707 (from ums)
+--------------------
+
+Before: JKLMNEF   G HI pqrstzABCD     fghij
+Diff  : klmno
+
+                                 klmno
+
+After:  JKLMNEF   G HI pqrstzABCDklmnofghij
+
+S8c - 698 (from PGt)
+--------------------
+
+Before: JKLMNaEFbcdGeHIpqrst
+Diff:   zABCD
+
+                            zABCD
+                            
+After:  JKLMNaEFbcdGeHIpqrstzABCD
+
+Fo9 - 662 (from PGt)
+--------------------
+
+Before: JKLMNEF   G HI pqrst     fghij
+Diff  : zABCD
+
+                            aABCD
+                            
+After:  JKLMNEF   G HI pqrstzABCDfghij
+
+Fo9 - 653 (from umQ)
+--------------------
+
+Before: JKLMNEF   G HI pqrst
+Diff  : fghij
+
+                                 fghij
+                                 
+After:  JKLMNEF   G HI pqrst     fghij
+
+S8c - 626 (from Fo9)
+--------------------
+
+Before: JKLMNaEFbcdGeH
+Diff  : ?Ipqrst
+
+                      Ipqrst
+
+After:  JKLMNaEFbcdGeHIpqrst
+
+Fo9 - 587 (from Tk1)
+--------------------
+
+Before: JKLMNEF   G H  pqrst
+Diff:   ?I
+
+                    ?I
+
+After:  JKLMNEF   G HI pqrst
+
+S8c - 550 (from Mbt)
+--------------------
+
+Before: JKLM aEFbcdGeH
+Diff  : ?N
+            N
+
+After:  JKLMNaEFbcdGeH
+
+S8c - 493 (push "e")
+--------------------
+
+Before: JKLM aEFbcdG
+Diff49: ?e
+
+                   ?e
+                   
+After:  JKLM aEFbcdGe
+
+Note: Part of bad batch.
+
+S8c - 438 (push "d")
+--------------------
+
+Before: JKL  aEFbc
+Diff43: ?d
+
+                 ?d
+                 
+After:  JKL  aEFbcd
+
+Note: Part of bad batch.
+
+S8c - 334 (push "c")
+--------------------
+
+Before: JK   aEFb
+Diff32: ?c
+
+                ?c
+                
+After:  JK   aEFbc
+
+Note: Part of bad batch.
+
+S8c - 245 (push "b")
+--------------------
+
+Before:      aEF
+Diff23: ?b
+
+               ?b
+               
+After:       aEFb
+
+S8c - 197 (from TK1)
+--------------------
+
+Before:      a
+Diff18: EF
+
+              EF
+
+After:       aEF
+
+S8c - 158 (push "a")
+--------------------
+
+Before:
+Diff14: a
+
+             a
+             
+After:       a
