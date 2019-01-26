@@ -1,0 +1,98 @@
+S8c 90     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrstJKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678zAB 
+umQ 89     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrs JKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678zAB (bad)
+ums 87     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrstJKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678    (bad)
+
+           SSSSSSSSuuuuuuuuuuuuuuSSSSuSuuSuSuuSSSSSSSuuuuuuuuuuuuuuuuuSuSuuSuuSuuSuSuSuSuuuuuuuuuuuuu
+           88888888mmmmmmmmmmmmmm8888m8mm8m8mm8888888mmmmmmmmmmmmmmmmm8m8mm8mm8mm8m8m8m8mmmmmmmmmmmmm
+           ccccccccsssssssssQQQQQccccscsscscsscccccccsssssssQQQQQQQQsscQcQscsQcQscQcQcQcQQQQQQQQQQsss
+           000000000000000000000011222222333333333444444444434444444555565666566766767677778888888889
+           123456781234567891234545565869313246789012034567873456789897002426351083164972580123456890
+
+Working backwords
+
+umQ - 1963
+----------
+
+Before:    abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrs JKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678
+Delta 171: ?z (zAB)
+
+                                                                                                  ?zAB
+
+kAfter:    abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrs JKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678zAB
+
+Notes: ? matches r01umq:86 whish is "z" ... didn't get merged for some reason
+
+Batch from S8c: [ums:27 S8c:30 umQ:30] [ums:3] "zAB"
+
+
+S8c - 1940
+----------
+
+Before:    abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrstJKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678
+Delta 170: ?z (zAB)
+After:     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstuvnopqrstJKLMNOPQuvwRxSwyxTzUyAVBWCXDYZ12345678zAB
+
+Batch from ums: [ums:27 S8c:30 umQ:30] [ums:3] "zAB"
+
+ums - 872 (push "t") r02ums:48
+--------------------
+
+Before:    abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstu nopqrs
+Delta 84:  ?t
+
+                                                          ?t
+
+After:     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstu nopqrst
+
+Clock: [ums:22 S8c:21 umQ:5]
+
+umQ - 688
+---------
+
+Before:    abcdefgh90abcdefgEFGHIijklhmijnkolmp             J
+Delta 66:  ?q (rstu)
+
+                                              ?qrstu
+
+After:     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrstu        J
+
+
+S8c - 665 (push "t")
+--------------------
+
+Before:    abcdefgh90abcdefgEFGHIijklhmijnkolmpqrs
+Delta 63:  ?t
+
+                                                 ?t
+
+After:     abcdefgh90abcdefgEFGHIijklhmijnkolmpqrst
+
+Clock: [ums:15 S8c:20 umQ:5]
+
+
+
+
+ums - 41 (push "0") r02ums:02
+-------------------
+
+Delta 4:   ?0 [ums:02]
+
+umQ - 35 (push "F") r01umQ:02
+-------------------
+
+Delta 3:   ?F [umQ:02]
+
+ums - 27 (push "9") r02ums:01
+-------------------
+
+Delta 2:   .9 [ums:01]
+
+umQ - 21 (push "E") r01umQ:01
+-------------------
+
+Delta 1:   .E [umQ:01]
+
+S8c - 15 (push "a") r00S8c:01
+-------------------
+
+Delta 0:   .a [S8c:01]
