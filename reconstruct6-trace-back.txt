@@ -1,37 +1,155 @@
-S8c 90     abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛzABâCD45678
-umQ 87     abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛzAB   45678
-ums 90     abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛzABâCD45678
+S8c 90     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíóxúyýzÂAÊBÎCÔDÛâQRSTUVWXYZ12345678
+umQ 73     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéw                 QRSTUVWXYZ12345678
+ums 90     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíóxúyýzÂAÊBÎCÔDÛâQRSTUVWXYZ12345678
 
 
 Working backwords...
 
-umQ - 2060
+umQ - 2171
 ----------
 
-Line: 2045 Jim S8c -> umQ push batches [ums:30 S8c:30 umQ:25] -> [ums:23 S8c:21 umQ:30] (Push batches)
-Line: 2046   Batch: [ums:23 S8c:21 umQ:25] [ums:7 S8c:9] "výÂÊwÎxÔyÛzABCD"
+Line: 2130 Jim S8c -> umQ push batches [ums:30 S8c:30 umQ:30] -> [ums:10 S8c:10 umQ:30] (Push batches)
+Line: 2131 Jim deltaBatches since:  [ums:10 S8c:10 umQ:30] target: QmYhezh22kguEdAHB6uqQKLFmT13K46oonvn3jFwCiyumQ
+Line: 2132   Delta: [ums:8 S8c:10 umQ:11] [S8c:1] "k"
+Line: 2133   Delta: [ums:8 S8c:11 umQ:11] [S8c:1] "l"
+Line: 2134   Delta: [ums:10 S8c:12 umQ:12] [S8c:1] "m"
+Line: 2135   Delta: [ums:10 S8c:10 umQ:12] [ums:1] "ò"
+Line: 2136   Delta: [ums:11 S8c:13 umQ:12] [S8c:1] "n"
+Line: 2137   Delta: [ums:11 S8c:11 umQ:12] [ums:1] "ù"
+Line: 2138   Delta: [ums:12 S8c:14 umQ:12] [S8c:1] "o"
+Line: 2139   Delta: [ums:12 S8c:12 umQ:12] [ums:1] "Á"
+Line: 2140   Delta: [ums:13 S8c:13 umQ:12] [ums:1] "É"
+Line: 2141   Delta: [ums:14 S8c:15 umQ:12] [S8c:1] "p"
+Line: 2142   Delta: [ums:14 S8c:14 umQ:12] [ums:1] "Í"
+Line: 2143   Delta: [ums:15 S8c:16 umQ:12] [S8c:1] "q"
+Line: 2144   Delta: [ums:15 S8c:17 umQ:12] [S8c:1] "r"
+Line: 2145   Delta: [ums:15 S8c:18 umQ:12] [S8c:1] "s"
+Line: 2146   Delta: [ums:15 S8c:17 umQ:12] [ums:3 S8c:1] "ÓÚÝ"
+Line: 2147   Delta: [ums:18 S8c:19 umQ:12] [S8c:1] "t"
+Line: 2148   Delta: [ums:18 S8c:20 umQ:12] [S8c:1] "u"
+Line: 2149   Delta: [ums:18 S8c:20 umQ:12] [ums:1] "á"
+Line: 2150   Delta: [ums:19 S8c:21 umQ:12] [S8c:1] "v"
+Line: 2151   Delta: [ums:19 S8c:21 umQ:12] [ums:1] "é"
+Line: 2152   Delta: [ums:20 S8c:22 umQ:12] [ums:2 S8c:2] "wx"
+Line: 2153   Delta: [ums:22 S8c:22 umQ:12] [ums:1] "ú"
+Line: 2154   Delta: [ums:23 S8c:24 umQ:12] [S8c:1] "y"
+Line: 2155   Delta: [ums:23 S8c:22 umQ:12] [ums:1] "ý"
+Line: 2156   Delta: [ums:24 S8c:25 umQ:12] [S8c:1] "z"
+Line: 2157   Delta: [ums:24 S8c:24 umQ:12] [ums:1] "Â"
+Line: 2158   Delta: [ums:25 S8c:26 umQ:12] [S8c:1] "A"
+Line: 2159   Delta: [ums:25 S8c:25 umQ:12] [ums:1] "Ê"
+Line: 2160   Delta: [ums:26 S8c:27 umQ:12] [S8c:1] "B"
+Line: 2161   Delta: [ums:26 S8c:27 umQ:12] [ums:1] "Î"
+Line: 2162   Delta: [ums:27 S8c:28 umQ:12] [S8c:1] "C"
+Line: 2163   Delta: [ums:27 S8c:28 umQ:12] [ums:1] "Ô"
+Line: 2164   Delta: [ums:28 S8c:29 umQ:12] [S8c:1] "D"
+Line: 2165   Delta: [ums:28 S8c:28 umQ:12] [ums:1] "Û"
+Line: 2166   Delta: [ums:29 S8c:30 umQ:12] [ums:1] "â"
+Line: 2167   Batch: [ums:8 S8c:10 umQ:11] [ums:22 S8c:20 umQ:1] "klmònùoÁÉpÍqrsÓÚÝtuávéwxúyýzÂAÊBÎCÔDÛâ"
 
-Line: 2057 Jim umQ <- S8c pull incoming [ums:23 S8c:21 umQ:30] <- [ums:30 S8c:30 umQ:25] (delta)
-Line: 2058 Jim umQ <- S8c pull saving delta
-Line: 2059   "výÂÊwÎxÔyÛzABCD"
+Line: 2168 Jim umQ <- S8c pull incoming [ums:10 S8c:10 umQ:30] <- [ums:30 S8c:30 umQ:12] (delta)
+Line: 2169 Jim umQ <- S8c pull saving delta
+Line: 2170   [ums:8 S8c:10 umQ:11] [ums:22 S8c:20 umQ:1] "klmònùoÁÉpÍqrsÓÚÝtuávéwxúyýzÂAÊBÎCÔDÛâ"
 
-Before:    abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstu                45678
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOì  P                                      QRSTUVWXYZ12345678
+Delta 147: ?k (lmònùoÁÉpÍqrsÓÚÝtuávéwxúyýzÂAÊBÎCÔDÛâ)
 
-Delta:     ?výÂÊwÎxÔyÛzAB. (?CD)
+                                        ?kl ?mònùoÁÉpÍqrsÓÚÝtuávéw
 
-                                                                                výÂÊwÎxÔyÛzAB
-After:     abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛzAB   45678
-Unmerged:                                                                                    ?CD
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéw                 QRSTUVWXYZ12345678
+Unmerged:                                                          ?xúyýzÂAÊBÎCÔDÛâ
 
+Line: 2175 State: umQ 73 [ums:30 S8c:30 umQ:30]
 
-ums - 1962 Push "â"
+ums - 1630
 ----------
 
-Before:    abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛz
-Delta 150: ?â
-                                                                                          ?  â
-After:     abcde90ÀÈÌÒÙàèìòEFGHIJKLMNOPQRfùSTUÁÉVWÍXÓYZghiÚjk12lÝm3ánéoípóqúrstuvýÂÊwÎxÔyÛz  â
+Line: 1597 Jim S8c -> ums push batches [ums:22 S8c:24 umQ:12] -> [ums:23 S8c:22 umQ:12] (Push batches)
+Line: 1598 Jim deltaBatches since:  [ums:23 S8c:22 umQ:12] target: QmdXPocZdyJyzXTCc5Z8Mfw35KV1ezC1St8es8UDYKMums
+Line: 1599   Delta: [ums:20 S8c:22 umQ:12] [S8c:1] "w"
+Line: 1600   Delta: [ums:22 S8c:23 umQ:12] [S8c:1] "x"
+Line: 1601   Batch: [ums:20 S8c:22 umQ:12] [ums:2 S8c:2] "wx"
 
-Line: 1967 Jim applyAndPushDelta previousClock [ums:29 S8c:26 umQ:25]
-Line: 1968 Jim applyAndPushDelta authorClock [ums:1]
-Line: 1969 Jim applyAndPushDelta newClock [ums:30 S8c:26 umQ:25]
+Note: This batch advanced the clock ums:20 -> ums:22, but left out the deltas!!!
+
+Line: 1628 Jim ums <- S8c pull saving delta
+Line: 1629   [ums:20 S8c:22 umQ:12] [ums:2 S8c:2] "wx"
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé íó úý
+Delta 115: ?w (?x)
+
+                                                                ?w ?x 
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíóxúý
+
+Line: 1634 State: ums 60 [ums:24 S8c:24 umQ:12]
+
+S8c - 1587 Push "x"
+----------
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíó
+Delta 112: ?x
+
+                                                                   ?x
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíóx
+
+Line: 1592 Jim applyAndPushDelta previousClock [ums:22 S8c:23 umQ:12]
+Line: 1593 Jim applyAndPushDelta authorClock [S8c:1]
+Line: 1594 Jim applyAndPushDelta newClock [ums:22 S8c:24 umQ:12]
+
+S8c - 1561
+----------
+
+Line: 1551 Jim ums -> S8c push batches [ums:22 S8c:22 umQ:12] -> [ums:20 S8c:23 umQ:12] (Push batches)
+Line: 1552 Jim deltaBatches since:  [ums:20 S8c:23 umQ:12] target: QmcnJwXLUE27YpyPR7GwRF8h6o1ouR6iBkcTUk9sShXS8c
+Line: 1553   Delta: [ums:20 S8c:22 umQ:12] [ums:1] "í"
+Line: 1554   Delta: [ums:21 S8c:22 umQ:12] [ums:1] "ó"
+Line: 1555   Batch: [ums:20 S8c:22 umQ:12] [ums:2] "íó"
+
+Line: 1558 Jim S8c <- ums pull incoming [ums:20 S8c:23 umQ:12] <- [ums:22 S8c:22 umQ:12] (delta)
+Line: 1559 Jim S8c <- ums pull saving delta
+Line: 1560   [ums:20 S8c:22 umQ:12] [ums:2] "íó"
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéw
+Delta 110: ?í (íó)
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéwíó
+
+Line: 1565 State: S8c 57 [ums:22 S8c:23 umQ:12]
+
+S8c - 1541 Push "w"
+----------
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé
+Delta 109: ?w
+
+                                                                ?w
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávéw
+
+Line: 1546 Jim applyAndPushDelta previousClock [ums:20 S8c:22 umQ:12]
+Line: 1547 Jim applyAndPushDelta authorClock [S8c:1]
+Line: 1548 Jim applyAndPushDelta newClock [ums:20 S8c:23 umQ:12]
+
+ums - 1517 Push "ó" [ums:22]
+----------
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé í
+Delta 107: ?ó
+
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé íó
+
+Line: 1521 Jim applyAndPushDelta previousClock [ums:21 S8c:22 umQ:12]
+Line: 1522 Jim applyAndPushDelta authorClock [ums:1]
+Line: 1523 Jim applyAndPushDelta newClock [ums:22 S8c:22 umQ:12]
+
+ums - 1488 Push "í" [ums:21]
+----------
+
+Before:    abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé
+Delta 105: ?í
+
+                                                                ? í
+After:     abcdefgh90ÀÈÌÒijÙEFGHIJKLMàèNOklìPmònùoÁÉpÍqrsÓÚÝtuávé í
+
+Line: 1493 Jim applyAndPushDelta previousClock [ums:20 S8c:22 umQ:12]
+Line: 1494 Jim applyAndPushDelta authorClock [ums:1]
+Line: 1495 Jim applyAndPushDelta newClock [ums:21 S8c:22 umQ:12]
+
