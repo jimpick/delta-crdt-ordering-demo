@@ -1,0 +1,116 @@
+S8c 77     abcdef90ÀÈÌÒÙàèìòEFGHIJKLMNOPùQÁRÉSÍTÓÚÝUVáéWXYígóúZ1hý2iÂ3j4Êk5Îl6Ôm7Ûnâo8pq
+umQ 88     abcdef90ÀÈÌÒÙàèìòEFGHIJKLMNOPùQÁRÉSÍTÓÚÝUV  WXYígóúZ1hý2iÂ3j4Êk5Îl6Ôm7Ûnâo8pqrstuvwxyzABCD
+ums 90     abcdef90ÀÈÌÒÙàèìòEFGHIJKLMNOPùQÁRÉSÍTÓÚÝUVáéWXYígóúZ1hý2iÂ3j4Êk5Îl6Ôm7Ûnâo8pqrstuvwxyzABCD
+
+
+Working backwords...
+
+S8c - 2071
+----------
+
+Line: 2020 Jim umQ -> S8c push batches [ums:30 S8c:18 umQ:30] -> [ums:12 S8c:30 umQ:14] (Push batches)
+Line: 2021 Jim deltaBatches since:  [ums:12 S8c:30 umQ:14] target: QmcnJwXLUE27YpyPR7GwRF8h6o1ouR6iBkcTUk9sShXS8c
+Line: 2022   Delta: [ums:0 S8c:11 umQ:10] [ums:11 S8c:1 umQ:5] "lS"
+Line: 2023   Delta: [ums:12 S8c:12 umQ:15] [umQ:1] "T"
+Line: 2024   Delta: [ums:12 S8c:11 umQ:13] [ums:1] "Á"
+Line: 2025   Delta: [ums:10 S8c:12 umQ:12] [ums:3 S8c:2 umQ:5] "mnU"
+Line: 2026   Delta: [ums:12 S8c:14 umQ:14] [ums:1 S8c:1 umQ:4] "oV"
+Line: 2027   Delta: [ums:13 S8c:15 umQ:18] [umQ:1] "W"
+Line: 2028   Delta: [ums:13 S8c:11 umQ:14] [ums:3] "ÉÍÓ"
+Line: 2029   Delta: [ums:16 S8c:15 umQ:19] [umQ:1] "X"
+Line: 2030   Delta: [ums:16 S8c:15 umQ:20] [umQ:1] "Y"
+Line: 2031   Delta: [ums:12 S8c:15 umQ:14] [ums:5 S8c:2 umQ:3] "pÚq"
+Line: 2032   Delta: [ums:17 S8c:18 umQ:21] [umQ:1] "Z"
+Line: 2033   Delta: [ums:17 S8c:18 umQ:22] [umQ:1] "1"
+Line: 2034   Delta: [ums:17 S8c:18 umQ:23] [umQ:1] "2"
+Line: 2035   Delta: [ums:17 S8c:18 umQ:24] [umQ:1] "3"
+Line: 2036   Delta: [ums:17 S8c:18 umQ:25] [umQ:1] "4"
+Line: 2037   Delta: [ums:17 S8c:18 umQ:26] [umQ:1] "5"
+Line: 2038   Delta: [ums:17 S8c:18 umQ:25] [ums:1] "Ý"
+Line: 2039   Delta: [ums:18 S8c:18 umQ:27] [ums:1 umQ:2] "67"
+Line: 2040   Delta: [ums:19 S8c:18 umQ:26] [ums:1] "é"
+Line: 2041   Delta: [ums:20 S8c:18 umQ:29] [umQ:1] "8"
+Line: 2042   Delta: [ums:20 S8c:18 umQ:27] [ums:1] "í"
+Line: 2043   Delta: [ums:21 S8c:18 umQ:27] [ums:1] "ó"
+Line: 2044   Delta: [ums:22 S8c:18 umQ:29] [ums:1] "ú"
+Line: 2045   Delta: [ums:23 S8c:18 umQ:30] [ums:1] "ý"
+Line: 2046   Delta: [ums:24 S8c:18 umQ:30] [ums:6] "ÂÊÎÔÛâ"
+Line: 2047   Batch: [ums:0 S8c:11 umQ:10] [ums:30 S8c:7 umQ:20] "lSTÁmnUoVWÉÍÓXYpÚqZ12345Ý67é8íóúýÂÊÎÔÛâ"
+
+Line: 2048 Jim S8c <- umQ pull incoming [ums:12 S8c:30 umQ:14] <- [ums:30 S8c:18 umQ:30] (delta)
+Line: 2049 Jim S8c <- umQ pull saving delta
+Line: 2050   [ums:0 S8c:11 umQ:10] [ums:30 S8c:7 umQ:20] "lSTÁmnUoVWÉÍÓXYpÚqZ12345Ý67é8íóúýÂÊÎÔÛâ"
+
+Before:    abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnR ùopqrstuvwxyzABCD
+Delta 143: ?l (STÁmnUoVWÉÍÓXYpÚqZ12345Ý67é8íóúýÂÊÎÔÛâ)
+
+                                          ?l 
+                                                 ?S                ?TÁ
+                                               ?n                    ÁU
+                                             ?m
+                                                                      UV
+                                                   ?o                  VWÉÍÓ
+                                                                     Á   É ÓXY
+                                                                           Ó  Ú
+                                                     pq
+                                                    op                        ÚZ123 4  5
+                                                                                  3Ý      67
+                                                                                       5  6
+                            ?é                                                             7 8
+                                                                                       5íó 7ú8ýÂÊÎÔÛâ
+                                                                                              ýÂ
+
+After:     abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnRSùopqrstuvwxyzABCDTÁUVWÉÍÓXYÚZ123Ý4  5íó67ú8ýÂÊÎÔÛâ
+Unmerged:  ?é
+
+Line: 2055 State: S8c 88 [ums:30 S8c:30 umQ:30]
+
+Notes: Missing "á"
+Notes: Line 2039 ... 2 changes, should be 3
+
+ums - 1766
+----------
+
+Line: 1700 Jim umQ -> ums push batches [ums:19 S8c:18 umQ:29] -> [ums:21 S8c:18 umQ:27] (Push batches)
+Line: 1701 Jim deltaBatches since:  [ums:21 S8c:18 umQ:27] target: QmdXPocZdyJyzXTCc5Z8Mfw35KV1ezC1St8es8UDYKMums
+Line: 1702   Delta: [ums:18 S8c:18 umQ:27] [umQ:1] "6"
+Line: 1703   Delta: [ums:19 S8c:18 umQ:28] [umQ:1] "7"
+Line: 1704   Batch: [ums:18 S8c:18 umQ:27] [ums:1 umQ:2] "67"
+
+Line: 1766 Jim ums <- umQ pull saving delta
+Line: 1767   [ums:18 S8c:18 umQ:27] [ums:1 umQ:2] "67"
+
+Note: Batch doesn't include changes from ums!
+
+umQ - 1642 [ums:19 S8c:18 umQ:28]
+----------
+
+Line: 1571 Jim ums -> umQ push batches [ums:19 S8c:18 umQ:26] -> [ums:18 S8c:18 umQ:27] (Push batches)
+Line: 1572 Jim deltaBatches since:  [ums:18 S8c:18 umQ:27] target: QmYhezh22kguEdAHB6uqQKLFmT13K46oonvn3jFwCiyumQ
+Line: 1573   Delta: [ums:18 S8c:18 umQ:26] [ums:1] "á"
+Line: 1574   Batch: [ums:18 S8c:18 umQ:26] [ums:1] "á"
+
+Line: 1642 Jim umQ <- ums pull incoming [ums:18 S8c:18 umQ:28] <- [ums:19 S8c:18 umQ:26] (delta)
+Line: 1644 Jim umQ <- ums pull saving delta
+Line: 1645   [ums:18 S8c:18 umQ:26] [ums:1] "á"
+
+Before:    abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnRSùopqr            TÁUVWÉÍÓXYÚZ123Ý4  5  6
+Delta 118: ?á
+After:     abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnRSùopqr            TÁUVWÉÍÓXYÚZ123Ý4á 5  6
+
+Line: 1650 State: umQ 65 [ums:19 S8c:18 umQ:28]
+
+
+ums - 1553 Push "á" [ums:19]
+----------
+
+Before:    abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnRSùopqr            TÁUVWÉÍÓXYÚZ123Ý4
+Delta 111: ?á
+
+                                                                                    ?á
+After:     abcdefghij90ÀÈÌÒÙàèìòEFGHIJKLMNklOPmQnRSùopqr            TÁUVWÉÍÓXYÚZ123Ý4á
+
+Line: 1558 Jim applyAndPushDelta previousClock [ums:18 S8c:18 umQ:26]
+Line: 1559 Jim applyAndPushDelta authorClock [ums:1]
+Line: 1560 Jim applyAndPushDelta newClock [ums:19 S8c:18 umQ:26]
+

@@ -1,0 +1,127 @@
+--- umQ 1466
+
+push "4" to umQ
+
+ums          [ums:17 S8c:18 umQ:24]
+S8c          [ums:12 S8c:23 umQ:14]
+umQ 4        [ums:17 S8c:18 umQ:26] from [ums:17 S8c:18 umQ:25]
+
+--- ums 1523
+
+batch sent umQ -> ums [ums:17 S8c:18 umQ:26] -> [ums:17 S8c:18 umQ:25]
+  Delta: [ums:17 S8c:18 umQ:25] [umQ:1] "4"
+  Line: 1494   Batch: [ums:17 S8c:18 umQ:25] [umQ:1] "4"
+
+ums 4        [ums:18 S8c:18 umQ:26] from [ums:18 S8c:18 umQ:25]
+S8c          [ums:12 S8c:24 umQ:14]
+umQ 4        [ums:17 S8c:18 umQ:26] 
+
+--- umQ 1542
+
+push "5" to umQ
+
+ums 4        [ums:18 S8c:18 umQ:26]
+S8c          [ums:17 S8c:24 umQ:14]
+umQ 4  5     [ums:17 S8c:18 umQ:27] from [ums:17 S8c:18 umQ:26]
+
+--- ums 1553
+
+push "a" to ums
+
+ums 4a       [ums:19 S8c:18 umQ:26] from [ums:18 S8c:18 umQ:26]
+S8c          [ums:12 S8c:24 umQ:14]
+umQ 4  5     [ums:17 S8c:18 umQ:27]
+
+--- umQ 1600
+
+push "6" to umQ
+
+ums 4a       [ums:19 S8c:18 umQ:26]
+S8c          [ums:12 S8c:25 umQ:14]
+umQ 4  5  6  [ums:18 S8c:18 umQ:28] from [ums:18 S8c:18 umQ:27]
+
+--- ums 1608
+
+push "e" to ums
+
+ums 4ae      [ums:20 S8c:18 umQ:26] from [ums:19 S8c:18 umQ:26]
+S8c          [ums:12 S8c:25 umQ:14]
+umQ 4  5  6  [ums:18 S8c:18 umQ:28]
+
+--- ums 1633
+
+batch send umQ -> ums [ums:17 S8c:18 umQ:27] -> [ums:19 S8c:18 umQ:26]
+  Delta: [ums:17 S8c:18 umQ:26] [umQ:1] "5"
+  Batch: [ums:17 S8c:18 umQ:26] [umQ:1] "5"
+
+ums 4ae5     [ums:20 S8c:18 umQ:27] from [ums:20 S8c:18 umQ:26]
+S8c          [ums:12 S8c:26 umQ:14]
+umQ 4  5  6  [ums:18 S8c:18 umQ:28]
+
+--- umQ 1642
+
+batch sent ums -> umQ [ums:19 S8c:18 umQ:26] -> [ums:18 S8c:18 umQ:27]
+  Delta: [ums:18 S8c:18 umQ:26] [ums:1] "a"
+  Batch: [ums:18 S8c:18 umQ:26] [ums:1] "a"
+
+ums 4ae      [ums:20 S8c:18 umQ:26]
+S8c          [ums:12 S8c:26 umQ:14]
+umQ 4a 5  6  [ums:19 S8c:18 umQ:28] from [ums:18 S8c:18 umQ:28]
+
+--- umQ 1659
+
+push "7" to umQ
+
+ums 4ae      [ums:20 S8c:18 umQ:26]
+S8c          [ums:12 S8c:26 umQ:14]
+umQ 4a 5  67 [ums:19 S8c:18 umQ:29] from [ums:19 S8c:18 umQ:28]
+
+--- ums 1675
+
+push "i" to ums
+
+ums 4ae5i    [ums:21 S8c:18 umQ:27] from [ums:20 S8c:18 umQ:27]
+S8c          [ums:12 S8c:27 umQ:14]
+umQ 4a 5  67 [ums:19 S8c:18 umQ:29]
+
+--- ums 1747
+
+push "o" to ums
+
+ums 4ae5io   [ums:22 S8c:18 umQ:27] from [ums:21 S8c:18 umQ:27]
+S8c          [ums:12 S8c:27 umQ:14]
+umQ 4ae5  67 [ums:20 S8c:18 umQ:30]
+
+--- ums 1766
+
+batch sent umQ -> ums [ums:19 S8c:18 umQ:29] -> [ums:21 S8c:18 umQ:27]
+  Delta: [ums:18 S8c:18 umQ:27] [umQ:1] "6"
+  Delta: [ums:19 S8c:18 umQ:28] [umQ:1] "7"
+  Batch: [ums:18 S8c:18 umQ:27] [ums:1 umQ:2] "67"
+
+Note: Batch doesn't include changes from ums!
+
+ums 4ae5io67 [ums:22 S8c:18 umQ:29] from [ums:22 S8c:18 umQ:27]
+S8c          [ums:12 S8c:27 umQ:14]
+umQ 4ae5  67 [ums:20 S8c:18 umQ:30]
+
+--- S8c 2051
+
+batch sent umQ -> S8c [ums:30 S8c:18 umQ:30] -> [ums:12 S8c:30 umQ:14]
+  Delta: [ums:17 S8c:18 umQ:25] [umQ:1] "4"
+  Delta: [ums:17 S8c:18 umQ:26] [umQ:1] "5"
+  Delta: [ums:18 S8c:18 umQ:27] [ums:1 umQ:2] "67"
+  Delta: [ums:20 S8c:18 umQ:27] [ums:1] "i"
+  Delta: [ums:21 S8c:18 umQ:27] [ums:1] "o"
+  Batch: [ums:0 S8c:11 umQ:10] [ums:30 S8c:7 umQ:20] "4567io"
+
+ums 4ae5io67 [ums:30 S8c:18 umQ:30]
+S8c 4  5io67 [ums:30 S8c:30 umQ:30]
+umQ 4ae5io67 [ums:30 S8c:18 umQ:30]
+
+--- Final
+
+ums 4ae5io67 [ums:30 S8c:30 umQ:30]
+S8c 4  5io67 [ums:30 S8c:30 umQ:30]
+umQ 4ae5io67 [ums:30 S8c:30 umQ:30]
+
