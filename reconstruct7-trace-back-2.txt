@@ -105,6 +105,26 @@ ums 4ae5io67 [ums:22 S8c:18 umQ:29] from [ums:22 S8c:18 umQ:27]
 S8c          [ums:12 S8c:27 umQ:14]
 umQ 4ae5  67 [ums:20 S8c:18 umQ:30]
 
+--- umQ 1785
+
+batch sent ums -> umQ [ums:21 S8c:18 umQ:27] -> [ums:20 S8c:18 umQ:28]
+  Delta: [ums:20 S8c:18 umQ:27] [ums:1] "i"
+  Batch: [ums:20 S8c:18 umQ:27] [ums:1] "i"
+
+ums 4ae5io67 [ums:22 S8c:18 umQ:29] 
+S8c          [ums:12 S8c:28 umQ:14]
+umQ 4ae5i 67 [ums:21 S8c:18 umQ:30] from [ums:20 S8c:18 umQ:30]
+
+--- umQ 1836
+
+batch sent ums -> umQ [ums:22 S8c:18 umQ:27] -> [ums:21 S8c:18 umQ:29]
+  Delta: [ums:21 S8c:18 umQ:27] [ums:1] "o"
+  Batch: [ums:21 S8c:18 umQ:27] [ums:1] "o"
+
+ums 4ae5io67 [ums:23 S8c:18 umQ:30]
+S8c          [ums:12 S8c:29 umQ:14]
+umQ 4ae5io67 [ums:22 S8c:18 umQ:30] from [ums:21 S8c:18 umQ:30]
+
 --- S8c 2051
 
 batch sent umQ -> S8c [ums:30 S8c:18 umQ:30] -> [ums:12 S8c:30 umQ:14]
